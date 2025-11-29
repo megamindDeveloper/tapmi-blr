@@ -1,52 +1,93 @@
-// src/app/components/sections/EventVenueSection.tsx
+import { StyledMap } from "../ui/StyledMap";
 
 export default function EventVenueSection() {
   return (
-    <section className="relative w-full h-[30vh] md:h-[70vh] overflow-hidden">
-      {/* MAP BACKGROUND */}
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.014166189417!2d77.6238321!3d13.0583517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17f2b75d27b1%3A0xbdaf683e4c2aacae!2sT%20A%20Pai%20Management%20Institute!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
-        className="absolute inset-0 w-full h-full border-0"
-        allowFullScreen
-        loading="lazy"
-      ></iframe>
+    <section className="relative w-full overflow-hidden">
 
-      {/* OVERLAY VENUE CARD */}
-      <div
-        className="
-          absolute top-10 left-6 md:left-12 
-          bg-[#0EA5A9] text-white 
-          p-8 md:p-10 
-          w-[80%] md:w-[360px] 
-          rounded-md 
-          shadow-lg
-        "
-      >
-        <h2 className="text-2xl md:text-3xl font-semibold mb-5">Event Venue</h2>
+      {/* FOR MOBILE: STACKED LAYOUT */}
+      <div className="block md:hidden w-full">
 
-        <p className="text-[15px] md:text-[16px] leading-7 mb-5">
-          T A Pai Management Institute<br />
-          Manipal Academy of Higher Education,<br />
-          Thanisandra Main Rd, Chokkanahalli,<br />
-          Bengaluru, Karnataka 560064
-        </p>
+        {/* EVENT VENUE CARD */}
+        <div className="w-full bg-[#1BA3B9] text-white px-6 py-12">
+          <h2 className="text-2xl font-medium mb-4">Event Venue</h2>
 
-        <a
-          href="#"
-          className="underline font-medium text-[16px] mb-6 inline-block"
-        >
-          View on Maps
-        </a>
+          <p className="text-[15px] font-thin leading-6 mb-4">
+            T A Pai Management Institute<br />
+            Manipal Academy of Higher Education,<br />
+            Thanisandra Main Rd, Chokkanahalli,<br />
+            Bengaluru, Karnataka 560064
+          </p>
 
-        <div className="mt-4">
-          <h3 className="text-[17px] font-semibold mb-2">Please Note</h3>
+          <a
+            href="#"
+            className="inline-block text-[16px] font-thin text-white/90 border-b-[1.5px] border-white/80 mb-8"
+          >
+            View on Maps
+          </a>
 
-          <ul className="list-disc pl-5 space-y-1 text-[15px] md:text-[16px] leading-6">
-            <li>Accommodation and travel arrangements will need to be made by participants.</li>
-            <li>A list of recommended places to stay will be provided upon request.</li>
-          </ul>
+          <div className="mt-8">
+            <h3 className="text-[18px] font-semibold mb-2">Please Note</h3>
+
+            <ul className="list-disc pl-5 space-y-2 text-[15px] font-thin leading-6">
+              <li>Accommodation and travel arrangements will need to be made by participants.</li>
+              <li>A list of recommended places to stay will be provided upon request.</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* MOBILE MAP BELOW CARD */}
+        <div className="w-full h-[300px]">
+          <StyledMap />
         </div>
       </div>
+
+
+      {/* DESKTOP (unchanged layout) */}
+      <div className="hidden md:block relative h-[75vh]">
+
+        {/* MAP FULL BG */}
+        <StyledMap />
+
+        {/* OVERLAY CARD */}
+        <div
+          className="
+            absolute top-0 left-16 
+            bg-[#1BA3B9] text-white 
+            px-10 pt-16
+            w-[400px] h-full
+          "
+        >
+          <h2 className="text-3xl font-medium mb-5">Event Venue</h2>
+
+          <p className="text-[18px] font-thin leading-6 mb-5">
+            T A Pai Management Institute<br />
+            Manipal Academy of Higher Education,<br />
+            Thanisandra Main Rd, Chokkanahalli,<br />
+            Bengaluru, Karnataka 560064
+          </p>
+
+          <a
+            href="#"
+            className="
+              inline-block text-[18px] font-thin 
+              text-white/90 border-b-[2px] border-white/80 
+              mb-10
+            "
+          >
+            View on Maps
+          </a>
+
+          <div className="mt-12">
+            <h3 className="text-[20px] font-semibold mb-2">Please Note</h3>
+
+            <ul className="list-disc pl-5 space-y-1 text-[18px] font-thin leading-6">
+              <li>Accommodation and travel arrangements will need to be made by participants.</li>
+              <li>A list of recommended places to stay will be provided upon request.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
     </section>
   );
 }
