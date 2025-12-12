@@ -6,11 +6,21 @@ export default function LenisProvider({ children }: { children: React.ReactNode 
   const rafRef = useRef<number | null>(null);
 
   useEffect(() => {
-    let lenis: any;
+    type LenisInstance = { raf: (time: number) => void; destroy?: () => void };
+type LenisConstructor = new (options?: {
+  smoothWheel?: boolean;
+  smoothTouch?: boolean;
+  lerp?: number;
+}) => LenisInstance;
+
+let lenis: LenisInstance | null = null;
 
     const ensureLenisScript = () =>
       new Promise<void>((resolve, reject) => {
-        if (typeof window !== "undefined" && (window as any).Lenis) {
+       if (
+  typeof window !== "undefined" &&
+  (window as unknown as { Lenis?: LenisConstructor }).Lenis
+) {
           resolve();
           return;
         }
@@ -34,7 +44,7 @@ export default function LenisProvider({ children }: { children: React.ReactNode 
     const startLenis = async () => {
       try {
         await ensureLenisScript();
-        const LenisCtor = (window as any).Lenis;
+       const LenisCtor = (window as unknown as { Lenis?: LenisConstructor }).Lenis;
         if (!LenisCtor) return;
 
         lenis = new LenisCtor({
@@ -49,7 +59,7 @@ export default function LenisProvider({ children }: { children: React.ReactNode 
         };
         rafRef.current = requestAnimationFrame(raf);
       } catch (e) {
-        // Silent fail if CDN blocked
+        console.log("Error loading Lenis:", e);
       }
     };
 

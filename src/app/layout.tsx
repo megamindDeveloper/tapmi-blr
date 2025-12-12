@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Intersection 2026: Navigating the New Global Order",
   description: "Join us for Intersection 2026, a two-day PhD and Early Career Research colloquium organised by TAPMI Bengaluru, MAHE, in collaboration with Deakin University, Australia",
   openGraph: {
