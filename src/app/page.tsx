@@ -7,6 +7,7 @@ import TrajectoriesSection from '../components/sections/TrajectoriesSection'
 import ObjectivesHighlightsSection from '../components/sections/ObjectivesHighlightsSection'
 import AboutEventSection from '../components/sections/AboutEventSection'
 import HeroSection from '../components/sections/HeroSection'
+import KeynoteSection from '../components/sections/KeynoteSection'
 
 const page = () => {
   return (
@@ -15,7 +16,7 @@ const page = () => {
     <AboutEventSection/>
     
     <ObjectivesHighlightsSection/>
-    {/* <div className="h-[100vh] bg-white"></div> */}
+    <KeynoteSection/>
     <TrajectoriesSection/>
 <RegistrationDetailsSection/>
     <ImportantDatesSection/>

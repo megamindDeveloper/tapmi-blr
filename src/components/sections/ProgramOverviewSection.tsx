@@ -10,7 +10,7 @@ export default function ProgramOverviewSection() {
 
   return (
     <section className="w-full py-8 md:py-20 bg-white">
-      <div className="max-w-full mx-auto px-8 md:px-20">
+      <div className="max-w-full mx-auto px-8 md:px-16">
         
         {/* Heading */}
         <h2 className="text-[24px] md:text-[45px] text-black font-medium mb-3 md:mb-10">

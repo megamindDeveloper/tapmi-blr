@@ -35,12 +35,8 @@ export default function PageNavHeader() {
 
 
       {/* MOBILE NAV */}
-      <div className="md:hidden flex justify-between items-center px-6 h-[66px] text-white">
-
-        {/* Left blank area (optional, can place logo here) */}
-        <div></div>
-
-        {/* Hamburger Menu */}
+      <div className="md:hidden flex justify-start items-center px-6 h-[66px] text-white">
+        {/* Hamburger Menu on Left */}
         <button onClick={() => setOpen(true)}>
           <Menu className="w-7 h-7" />
         </button>
@@ -80,7 +76,7 @@ export default function PageNavHeader() {
           <a href="#registration" onClick={() => setOpen(false)}>Registration & Participation</a>
           <a href="#schedule" onClick={() => setOpen(false)}>Schedule</a>
           <a href="#venue" onClick={() => setOpen(false)}>Venue</a>
-          <a href="#submit" className="font-semibold" onClick={() => setOpen(false)}>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_wmYFez7rMTnQmEjw7fnkkS-5y0on5-hKWd8AoLlIJ0T6kg/viewform?pli=1" className="font-semibold" onClick={() => setOpen(false)}>
             Submit Your Abstract
           </a>
         </nav>

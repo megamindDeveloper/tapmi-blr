@@ -38,7 +38,7 @@ export default function Footer() {
 
           <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-center md:items-start">
             {/* Contact #1 */}
-            <div className="flex items-center gap-3 text-md">
+            <div className="flex items-center gap-3 text-md md:hidden ">
               <Image src="/svgs/phone.svg" alt="" height={20} width={20} className="w-4 h-4 md:w-4 md:h-4 text-[#2B2A29]/70 hover:text-black" />
               <div className="flex  md:flex-row gap-2 md:gap-0 md:items-center">
                 <p className="font-semibold text-[#2B2A29]/70 md:mr-2">Abhishek Singh:</p>
@@ -47,7 +47,7 @@ export default function Footer() {
             </div>
 
             {/* Contact #2 */}
-            <div className="flex items-center gap-3 text-md">
+            <div className="flex items-center gap-3 text-md md:hidden " >
               <Image src="/svgs/phone.svg" alt="" height={20} width={20} className="w-4 h-4 md:w-4 md:h-4 text-[#2B2A29]/70 hover:text-black" />
               <div className="flex  md:flex-row gap-2 md:gap-0 md:items-center">
                 <p className="font-semibold text-[#2B2A29]/70 md:mr-2">Jhonson P:</p>

@@ -12,7 +12,7 @@ export default function RegistrationDetailsSection() {
 
   return (
     <section className="w-full py-8 md:py-16 bg-white font-sans">
-      <div className="max-w-full mx-auto px-8 md:px-22">
+      <div className="max-w-full mx-auto px-8 md:px-16">
         {/* Title */}
         <h2 className="text-[20px] md:text-[45px] font-medium text-left md:text-center mb-6 md:mb-12 text-black">
           Registration & Participation Details

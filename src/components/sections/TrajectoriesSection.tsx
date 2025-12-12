@@ -127,7 +127,7 @@ export default function TrajectoriesSection() {
     <section className="w-full bg-[#1BA3B9] relative overflow-hidden font-sans">
       {/* Desktop Layout */}
       <div className="hidden md:block py-24">
-        <div className="max-w-[1400px] mx-auto px-6 relative z-10">
+        <div className="max-w-[1400px] mx-auto px-1 relative z-10">
           
           {/* Heading */}
           <h2 className="text-white text-[42px] font-medium mb-6 tracking-tight">

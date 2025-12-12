@@ -126,7 +126,7 @@ export default function ObjectivesHighlightsSection() {
     <section className="w-full font-sans bg-white">
 
       {/* ====================== OBJECTIVES ====================== */}
-      <div className="max-w-full lg:px-18 mx-auto px-4 py-24">
+      <div className="max-w-full lg:px-15 mx-auto px-4 py-24">
         
         {/* Title */}
         <h2 className="text-center text-5xl font-medium mb-16 text-black">
@@ -227,7 +227,7 @@ export default function ObjectivesHighlightsSection() {
       </div>
 
       {/* ====================== EVENT HIGHLIGHTS ====================== */}
-      <div className="w-full bg-[#1BA3B9] px-8 lg:px-18 py-24 relative overflow-hidden">
+      <div className="w-full bg-[#1BA3B9] px-8 lg:px-15 py-24 relative overflow-hidden">
         
         {/* Title */}
         <h2 className="text-center md:text-center text-left  md:px-0 text-white text-4xl md:text-5xl font-medium mb-10 md:mb-16">
