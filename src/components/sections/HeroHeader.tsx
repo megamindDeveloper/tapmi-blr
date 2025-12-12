@@ -27,7 +27,7 @@ export default function HeroHeader() {
 
             {/* RIGHT LOGO */}
             <Image
-              src="/deakinlogo.png"
+              src="/deakinLogo.png"
               alt="Deakin University Logo"
               width={140}
               height={50}

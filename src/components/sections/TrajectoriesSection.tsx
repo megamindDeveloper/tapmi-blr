@@ -125,6 +125,24 @@ export default function TrajectoriesSection() {
 
   return (
     <section className="w-full bg-[#1BA3B9] relative overflow-hidden font-sans">
+{/*      
+       <Image
+    src="/svgs/vector1.svg"      // your actual file path
+    alt="decor"
+    width={1000}
+    height={1000}
+    className="pointer-events-none select-none absolute top-0 left-10 -translate-x-1/4 -translate-y-1/4 opacity-100 rotate-180"
+  /> */}
+
+  {/* BOTTOM-RIGHT VECTOR */}
+  <Image
+    src="/svgs/vector1.svg"      // your actual file path
+    alt="decor"
+    width={1000}
+    height={1000}
+    className="pointer-events-none select-none absolute bottom-0 right-0 translate-x-1/4 translate-y-1/4 opacity-60"
+  />
+     
       {/* Desktop Layout */}
       <div className="hidden md:block py-24">
         <div className="max-w-[1400px] mx-auto px-1 relative z-10">

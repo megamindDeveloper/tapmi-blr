@@ -133,7 +133,7 @@
           </p>
           <a
             href={selected.readMoreLink}
-            className="mt-6 inline-flex items-center gap-2 text-[15px] font-semibold text-[#2E8E9EE5]  "
+            className="mt-6 inline-flex items-center gap-2 text-[15px] font-semibold text-[#2E8E9EE5] hover:text-[#72bfcd] transition-all cursor-pointer   "
           >
             <Image src="/svgs/learnmore.svg" width={15} height={15} alt="" />
             <span className="border-b border-[#2E8E9EE5] leading-5 ">Learn More About the Speaker</span>
@@ -146,7 +146,7 @@
       </div>
 
       {/* FOOTER (unchanged) */}
-      <div className="hidden md:block w-full bg-[#5EB1B7] ">
+      <div className="hidden md:block w-full bg-[#2E8E9E] ">
         <div className="flex items-center justify-between px-10 py-6">
           <h4 className="text-[18px] md:text-[20px] font-medium text-white">
             Become a part of Intersection 2026
@@ -181,7 +181,7 @@
           
           <button
             onClick={onClick}
-            className="text-[#2E8E9E] text-sm font-bold tracking-tight border-b border-[#2E8E9E] leading-[16px]"
+            className="text-[#2E8E9E] text-sm font-bold  tracking-tight border-b border-[#2E8E9E] leading-[16px] hover:text-[#72bfcd] transition-all cursor-pointer "
           >
             Learn More
           </button>
