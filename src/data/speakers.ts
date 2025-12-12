@@ -52,7 +52,7 @@ const speakers: SpeakersData = {
       name: "Prof. Sushanta Kumar Mishra",
       title: "Indian Institute of Management Bangalore",
       subtitle: "Editor-in-Chief - IIMB Management Review; Former President - Indian Academy of Management",
-      image: "/images/speakers/sushanta.png",
+      image: "/images/speakers/sushat.png",
            Publishing:"How to Avoid Desk Rejection: Tips & Tricks for R&R",
 
       
