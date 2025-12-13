@@ -73,9 +73,13 @@ className="grid items-center grid-cols-[110px_1fr] md:grid-cols-[320px_1fr] gap-
               >
                 <div className="text-gray-800 h-full flex items-center">
                   {/* Mobile: two lines, Desktop: one line */}
-                  <div className="flex flex-col md:flex-row gap-2 items-center ">
-                    <span>{timeParts[0]} </span><span>–</span>
-                    {timeParts[1] && <span className="md:inline">{timeParts[1]}</span>}
+                  <div className="flex flex-col md:flex-row gap-2 items-center md:hidden ">
+                    <span>{timeParts[0]} – </span><span className="md:block hidden">–</span>
+                    {timeParts[1] && <span className="md:inline -ms-2 md:ms-0">{timeParts[1]}</span>}
+                  </div>
+                   <div className="md:flex flex-col md:flex-row gap-2 items-center hidden ">
+                    <span>{timeParts[0]} </span><span className="md:block hidden">–</span>
+                    {timeParts[1] && <span className="md:inline -ms-2 md:ms-0">{timeParts[1]}</span>}
                   </div>
                 </div>
                 <p className="text-gray-800">

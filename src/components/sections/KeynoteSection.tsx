@@ -58,8 +58,12 @@
             Keynote Speakers
           </h2>
 
-<div className="grid grid-cols-2 sm:grid-cols-3 lg:flex lg:justify-center gap-5 sm:gap-8 lg:gap-16 mb-12 lg:mb-24">
-            {speakers.keynoteSpeakers.map((sp) => (
+  <div className="
+    grid grid-cols-2 sm:grid-cols-3 
+    sm:flex sm:justify-center sm:flex-wrap
+    gap-5 sm:gap-8 lg:gap-16 
+    mb-12 lg:mb-24
+  ">            {speakers.keynoteSpeakers.map((sp) => (
               <SpeakerCard key={sp.id} sp={sp} onClick={() => openModal(sp)} />
             ))}
           </div>
