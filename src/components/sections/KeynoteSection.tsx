@@ -71,8 +71,13 @@
           {/* FACILITATORS */}
           <h2 className="text-center text-[32px] md:text-[44px] font-medium mb-8">Facilitators</h2>
 
-          <div className="grid grid-cols-2 lg:flex lg:justify-center gap-6 lg:gap-12 justify-items-center">
-            {speakers.facilitators.map((sp) => (
+<div
+  className="
+    grid grid-cols-2 
+    sm:flex sm:justify-center sm:flex-wrap
+    gap-4 sm:gap-6 lg:gap-12 
+  "
+>            {speakers.facilitators.map((sp) => (
               <SpeakerCard key={sp.id} sp={sp} onClick={() => openModal(sp)} />
             ))}
           </div>
