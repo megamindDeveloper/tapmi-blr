@@ -58,7 +58,7 @@
             Keynote Speakers
           </h2>
 
-          <div className="grid grid-cols-2 lg:flex lg:justify-center gap-6 lg:gap-16 mb-16 lg:mb-24 justify-items-center">
+<div className="grid grid-cols-2 sm:grid-cols-3 lg:flex lg:justify-center gap-5 sm:gap-8 lg:gap-16 mb-12 lg:mb-24">
             {speakers.keynoteSpeakers.map((sp) => (
               <SpeakerCard key={sp.id} sp={sp} onClick={() => openModal(sp)} />
             ))}
@@ -169,14 +169,14 @@
 
   function SpeakerCard({ sp, onClick }: { sp: Speaker; onClick: () => void }) {
     return (
-      <div className="w-[180px]">
+<div className="w-full max-w-[180px]">
         <Image
-          src={sp.image}
-          width={150}
-          height={150}
-          alt={sp.name}
-          className="object-cover w-full h-auto mb-3"
-        />
+        alt="speakers"
+  src={sp.image}
+  width={300}
+  height={300}
+  className="object-cover w-full aspect-square mb-3"
+/>
         
         <div className="text-left">
           <p className="text-md font-semibold tracking-tight mb-1 h-11  ">{sp.name}</p>

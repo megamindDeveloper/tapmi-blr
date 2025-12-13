@@ -98,7 +98,7 @@ export default function HeroHeader() {
               </ul>
 
               {/* BUTTON */}
-              <div className="mt-auto mx-auto">
+              <div className="mt-auto mb-12 mx-auto">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_wmYFez7rMTnQmEjw7fnkkS-5y0on5-hKWd8AoLlIJ0T6kg/viewform?pli=1" className="w-full bg-white text-[#298A95] py-3 px-12  shadow">
                   Submit Your Abstract
                 </a>
