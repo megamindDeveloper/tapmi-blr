@@ -69,11 +69,11 @@ export default function ProgramOverviewSection() {
             return (
               <div
                 key={index}
-                className="grid grid-cols-[110px_1fr] md:grid-cols-[320px_1fr] gap-x-6 md:gap-x-0 py-3 md:py-4 px-3 md:px-10 text-[13px] md:text-[18px] leading-relaxed border-b border-gray-200 last:border-b-0"
+className="grid items-center grid-cols-[110px_1fr] md:grid-cols-[320px_1fr] gap-x-6 md:gap-x-0 py-3 md:py-4 px-3 md:px-10 text-[13px] md:text-[18px] leading-relaxed border-b border-gray-200 last:border-b-0"
               >
-                <div className="text-gray-800">
+                <div className="text-gray-800 h-full flex items-center">
                   {/* Mobile: two lines, Desktop: one line */}
-                  <div className="flex flex-col md:flex-row gap-2 ">
+                  <div className="flex flex-col md:flex-row gap-2 items-center ">
                     <span>{timeParts[0]} </span><span>–</span>
                     {timeParts[1] && <span className="md:inline">{timeParts[1]}</span>}
                   </div>

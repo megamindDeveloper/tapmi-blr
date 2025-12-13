@@ -17,10 +17,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Intersection 2026: Navigating the New Global Order",
-  description: "Join us for Intersection 2026, a two-day PhD and Early Career Research colloquium organised by TAPMI Bengaluru, MAHE, in collaboration with Deakin University, Australia.",
+  description: "Join us for Intersection 2026, a two-day PhD and Early Career Research colloquium organised by TAPMI Bengaluru, MAHE, in collaboration with Deakin University, Australia.",
   openGraph: {
     title: "Intersection 2026: Navigating the New Global Order",
-    description: "Join us for Intersection 2026, a two-day PhD and Early Career Research colloquium organised by TAPMI Bengaluru, MAHE, in collaboration with Deakin University, Australia.",
+    description: "Join us for Intersection 2026, a two-day PhD and Early Career Research colloquium organised by TAPMI Bengaluru, MAHE, in collaboration with Deakin University,  Australia.",
     images: [
       {
         url: "/metaImg.png",    // place image inside /public
