@@ -55,7 +55,7 @@ export default function ProgramOverviewSection() {
         </div>
 
         {/* Table Header */}
-        <div className="grid grid-cols-[110px_1fr] md:grid-cols-[300px_1fr] gap-x-6 md:gap-x-0 text-black border-t border-b border-black py-2 md:py-3 px-5 md:px-10 text-[14px] md:text-[18px] font-normal">
+        <div className="grid grid-cols-[110px_1fr] md:grid-cols-[300px_1fr] gap-x-6 md:gap-x-0 text-black border-t border-b border-black py-2 md:py-3 px-5 md:px-7 text-[14px] md:text-[18px] font-normal">
           <p className="md:px-20">Time</p>
           <p className="md:text-center">Activity</p>
         </div>
@@ -74,7 +74,7 @@ export default function ProgramOverviewSection() {
                 <div className="text-gray-800">
                   {/* Mobile: two lines, Desktop: one line */}
                   <div className="flex flex-col md:flex-row gap-2 ">
-                    <span>{timeParts[0]} </span><span>-</span>
+                    <span>{timeParts[0]} </span><span>–</span>
                     {timeParts[1] && <span className="md:inline">{timeParts[1]}</span>}
                   </div>
                 </div>
