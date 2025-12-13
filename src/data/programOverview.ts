@@ -28,7 +28,8 @@ export const programOverview = {
     { time: "10:45 AM – 11:00 AM", activity: "Tea Break" },
     {
       time: "11:00 AM – 12:30 PM",
-      activity: "Publishing Workshop – Job Market Paper and Interview"
+      activity: "Publishing Workshop – Job Market Paper and Interview",
+      activity2:" Publishing Workshop - Fieldwork and Ethics"
     },
     { time: "12:30 PM – 01:50 PM", activity: "Lunch" },
     {

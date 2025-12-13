@@ -7,7 +7,8 @@ import { useState } from "react";
 export default function ProgramOverviewSection() {
   const [activeDay, setActiveDay] = useState<"dayOne" | "dayTwo">("dayOne");
 
-  const data = activeDay === "dayOne" ? programOverview.dayOne : programOverview.dayTwo;
+  const data: { time: string; activity: string; activity2?: string }[] =
+    activeDay === "dayOne" ? programOverview.dayOne : programOverview.dayTwo;
 
   return (
     <section id="schedule" className="w-full py-8 md:py-20 bg-white">
@@ -68,16 +69,24 @@ export default function ProgramOverviewSection() {
             return (
               <div
                 key={index}
-                className="grid grid-cols-[110px_1fr] md:grid-cols-[300px_1fr] gap-x-6 md:gap-x-0 py-3 md:py-4 px-3 md:px-10 text-[13px] md:text-[18px] leading-relaxed border-b border-gray-200 last:border-b-0"
+                className="grid grid-cols-[110px_1fr] md:grid-cols-[320px_1fr] gap-x-6 md:gap-x-0 py-3 md:py-4 px-3 md:px-10 text-[13px] md:text-[18px] leading-relaxed border-b border-gray-200 last:border-b-0"
               >
                 <div className="text-gray-800">
                   {/* Mobile: two lines, Desktop: one line */}
-                  <div className="flex flex-col md:block">
-                    <span>{timeParts[0]} –</span>
+                  <div className="flex flex-col md:flex-row gap-2 ">
+                    <span>{timeParts[0]} </span><span>-</span>
                     {timeParts[1] && <span className="md:inline">{timeParts[1]}</span>}
                   </div>
                 </div>
-                <p className="text-gray-800">{item.activity}</p>
+                <p className="text-gray-800">
+                  {item.activity}
+                  {item.activity2 && (
+                    <>
+                      <br />
+                      {item.activity2}
+                    </>
+                  )}
+                </p>
               </div>
             );
           })}

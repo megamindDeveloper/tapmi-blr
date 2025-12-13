@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import HeroHeader from "./HeroHeader";
 
@@ -27,7 +29,9 @@ export default function HeroSection() {
               Social Sciences, and Humanities
             </p>
 
-            <button className="bg-[#1E9BB0] hover:bg-[#1a8a9d] transition text-white px-3 sm:px-4 py-2 sm:py-3 text-[12px] sm:text-[17px] font-medium mb-4 sm:mb-6 lg:mb-8 hidden md:block">
+            <button   onClick={() => {
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSd_wmYFez7rMTnQmEjw7fnkkS-5y0on5-hKWd8AoLlIJ0T6kg/viewform?pli=1"
+  }} className="bg-[#1E9BB0] hover:bg-[#1a8a9d] transition text-white px-3 sm:px-4 py-2 sm:py-3 text-[12px] sm:text-[17px] font-medium mb-4 sm:mb-6 lg:mb-8 hidden md:block">
               Submit Your Abstract
             </button>
 
