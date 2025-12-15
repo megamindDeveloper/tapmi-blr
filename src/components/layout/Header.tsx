@@ -19,7 +19,7 @@ export default function PageNavHeader() {
 
 
   return (
-    <header className="hidden md:block w-full bg-[#1B9AAA] relative z-50">
+    <header className="hidden md:block w-full bg-[#1B9AAA] sticky top-0 z-5999999">
 
       {/* Top Blue Line */}
       {/* <div className="w-full h-[3px] bg-[#0066A6]"></div> */}
@@ -53,7 +53,7 @@ export default function PageNavHeader() {
     hover:text-[#1E9BB0]
   "
           >
-            Submit Your Abstractff
+            Submit Your Abstract
           </a>        </div>
       </nav>
 

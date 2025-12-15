@@ -178,7 +178,7 @@ export default function RegistrationDetailsSection() {
                 <div className="flex justify-between items-start gap-8">
                   <div className="max-w-[75%]">
                     <p className="text-[20px] font-semibold mb-3">
-                      Extended Abstract<br />/ Full Paper
+                      Extended Abstract Full Paper
                     </p>
                     <p className="text-[18px] hidden md:block leading-[28px] opacity-90">
                       3000–5000 words, including literature review,
