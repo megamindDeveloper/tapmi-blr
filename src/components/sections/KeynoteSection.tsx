@@ -219,3 +219,4 @@ function SpeakerCard({ sp, onClick }: { sp: Speaker; onClick: () => void }) {
     </div>
   );
 }
+

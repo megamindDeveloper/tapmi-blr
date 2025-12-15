@@ -253,7 +253,7 @@ export default function TrajectoriesSection() {
                     </h3>
 
                     {/* Description */}
-                    <p className="text-[14px] text-[#2c7a7b] leading-6 font-normal">
+                    <p className="md:text-xl text-lg text-[#2c7a7b] leading-6 font-normal">
                       {item.description}
                     </p>
                   </div>

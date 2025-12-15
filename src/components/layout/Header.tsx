@@ -41,8 +41,20 @@ export default function PageNavHeader() {
           <a onClick={() => scrollToSection("registration")} href="#registration" className="hover:opacity-80 transition">Registration & Participation</a>
           <a onClick={() => scrollToSection("schedule")} href="#schedule" className="hover:opacity-80 transition">Schedule</a>
           <a onClick={() => scrollToSection("venue")} href="#venue" className="hover:opacity-80 transition">Venue</a>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_wmYFez7rMTnQmEjw7fnkkS-5y0on5-hKWd8AoLlIJ0T6kg/viewform?pli=1" className=" hover:opacity-80 font-bold transition hover:border-1 p-3 hover:bg-[white] hover:text-[#1E9BB0] transition-all ">Submit Your Abstract</a>
-        </div>
+<a
+  href="https://docs.google.com/forms/d/e/1FAIpQLSd_wmYFez7rMTnQmEjw7fnkkS-5y0on5-hKWd8AoLlIJ0T6kg/viewform?pli=1"
+  className="
+    h-[66px]
+    px-4
+    flex items-center
+    font-bold
+    transition-all
+    hover:bg-white
+    hover:text-[#1E9BB0]
+  "
+>
+  Submit Your Abstract
+</a>        </div>
       </nav>
 
 
@@ -92,7 +104,7 @@ export default function PageNavHeader() {
           <a href="#registration" onClick={() => setOpen(false)}>Registration & Participation</a>
           <a href="#schedule" onClick={() => setOpen(false)}>Schedule</a>
           <a href="#venue" onClick={() => setOpen(false)}>Venue</a>
-          <a  href="https://docs.google.com/forms/d/e/1FAIpQLSd_wmYFez7rMTnQmEjw7fnkkS-5y0on5-hKWd8AoLlIJ0T6kg/viewform?pli=1" className="font-bold" onClick={() => setOpen(false)}>
+          <a  href="https://docs.google.com/forms/d/e/1FAIpQLSd_wmYFez7rMTnQmEjw7fnkkS-5y0on5-hKWd8AoLlIJ0T6kg/viewform?pli=1" className="font-bold w-[65px]" onClick={() => setOpen(false)}>
             Submit Your Abstract
           </a>
         </nav>

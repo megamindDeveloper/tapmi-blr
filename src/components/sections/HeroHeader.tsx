@@ -92,16 +92,17 @@ export default function HeroHeader() {
 
             {/* SLIDING SIDEBAR */}
             <motion.div
-              className="fixed top-0 right-0 h-full w-full bg-[#298A95] text-white z-50 p-8 flex flex-col justify-between"
+              className="fixed top-0 right-0 h-full w-full bg-[#298A95] text-white z-50  flex flex-col justify-between"
               initial={{ x: 300 }}
               animate={{ x: 0 }}
               exit={{ x: 300 }}
               transition={{ duration: 0.45, ease: "easeInOut" }} // smooth & slow
             >
               {/* CLOSE ICON */}
-              <button
+           <div className="p-8 flex flex-col">
+               <button
                 onClick={() => setOpen(false)}
-                className="text-2xl font-light mb-10 self-end"
+                className="text-4xl font-light mb-10 self-end "
               >
                 ×
               </button>
@@ -114,10 +115,11 @@ export default function HeroHeader() {
                 <li onClick={() => scrollToSection("schedule")} className="cursor-pointer">Schedule</li>
                 <li onClick={() => scrollToSection("venue")} className="cursor-pointer">Venue</li>
               </ul>
+           </div>
 
-              {/* BUTTON */}
-              <div className="mt-auto mb-12 mx-auto">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_wmYFez7rMTnQmEjw7fnkkS-5y0on5-hKWd8AoLlIJ0T6kg/viewform?pli=1" className="w-full bg-white text-[#298A95] py-3 px-12 font-bold  shadow">
+           
+              <div className="mt-auto mb-16">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_wmYFez7rMTnQmEjw7fnkkS-5y0on5-hKWd8AoLlIJ0T6kg/viewform?pli=1" className="block w-full bg-white text-[#298A95] py-4 font-bold shadow text-center">
                   Submit Your Abstract
                 </a>
               </div>
