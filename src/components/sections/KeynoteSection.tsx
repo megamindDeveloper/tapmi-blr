@@ -69,7 +69,7 @@ export default function KeynoteSection() {
         </div>
 
         {/* FACILITATORS */}
-        <h2 className="text-center text-[32px] md:text-5xl font-medium mb-8">Facilitators</h2>
+        <h2 className="text-center text-[32px] md:text-5xl font-medium mb-8"> Workshop Facilitators</h2>
 
         <div
           className="

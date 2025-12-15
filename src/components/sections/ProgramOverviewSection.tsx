@@ -67,13 +67,14 @@ export default function ProgramOverviewSection() {
           {data.map((item, index) => {
             // Split time at the dash for mobile display
             const timeParts = item.time.split(' – ');
+            const isParallelSession = activeDay === "dayTwo" && item.time.includes("11:00 AM – 12:30 PM");
             
             return (
               <div
                 key={index}
-className="grid items-center grid-cols-[110px_1fr] md:grid-cols-[320px_1fr] gap-x-6 md:gap-x-0 py-3 md:py-4 px-3 md:px-10 md:text-xl text-md leading-relaxed border-b border-gray-200 last:border-b-0"
+                className="grid items-center grid-cols-[110px_1fr] md:grid-cols-[320px_1fr] gap-x-6 md:gap-x-0 py-3 md:py-4 px-3 md:px-10 md:text-xl text-md leading-relaxed border-b border-gray-200 last:border-b-0"
               >
-                <div className="text-gray-800 h-full flex items-center">
+                <div className="text-gray-800 h-full flex flex-col justify-center">
                   {/* Mobile: two lines, Desktop: one line */}
                   <div className="flex flex-col md:flex-row gap-2 items-center md:hidden ">
                     <span>{timeParts[0]} – </span><span className="md:block hidden">–</span>
@@ -83,6 +84,11 @@ className="grid items-center grid-cols-[110px_1fr] md:grid-cols-[320px_1fr] gap-
                     <span>{timeParts[0]} </span><span className="md:block hidden">–</span>
                     {timeParts[1] && <span className="md:inline -ms-2 md:ms-0">{timeParts[1]}</span>}
                   </div>
+                  {isParallelSession && (
+                    <span className="text-[14px] md:text-[16px] md:px-9 text-gray-500 mt-1">
+                       (parallel session) 
+                    </span>
+                  )}
                 </div>
                 <p className="text-gray-800">
                   {item.activity}
