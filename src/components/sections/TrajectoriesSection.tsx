@@ -155,7 +155,7 @@ export default function TrajectoriesSection() {
           </h2>
 
           {/* Subtitle */}
-          <p className="text-white/90 text-[18px] leading-8 max-w-5xl mb-16 font-light">
+          <p className="text-white/90 md:text-xl text-lg leading-8 max-w-5xl mb-16 font-light">
             The conference invites Early Career Researchers and PhD scholars to present papers that engage with, respond to, or challenge the dynamics of the New Global Order. Submissions are welcome from the following area trajectories:
           </p>
 
@@ -186,7 +186,7 @@ export default function TrajectoriesSection() {
                 </h3>
 
                 {/* Description */}
-                <p className="text-[16px] text-[#2c7a7b] leading-7 font-normal">
+                <p className="md:text-xl text-lg text-[#2c7a7b] leading-7 font-normal">
                   {item.description}
                 </p>
               </div>
@@ -203,7 +203,7 @@ export default function TrajectoriesSection() {
         </h2>
 
         {/* Subtitle */}
-        <p className="text-white/90 text-[15px] leading-6 mb-8 font-light px-2">
+        <p className="text-white/90 md:text-xl text-lg leading-6 mb-8 font-light px-2">
           The conference invites Early Career Researchers and PhD scholars to present papers that engage with, respond to, or challenge the dynamics of the New Global Order. Submissions are welcome from the following area trajectories:
         </p>
 

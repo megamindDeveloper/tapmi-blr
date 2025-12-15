@@ -128,7 +128,7 @@ export default function ObjectivesHighlightsSection() {
 
 
       {/* ====================== OBJECTIVES ====================== */}
-      <div className="max-w-full lg:px-15 mx-auto px-8 py-24">
+      <div className="max-w-full lg:px-15 mx-auto px-8    md:py-24  pb-24">
         
         {/* Title */}
         <h2 className="text-center text-5xl font-medium mb-16 text-black">

@@ -1,9 +1,9 @@
-
-  "use client";
+"use client";
 
   import { useState, useEffect } from "react";
   import Image from "next/image";
   import { X } from "lucide-react";
+  import { motion, AnimatePresence } from "framer-motion";
   import speakers from "@/src/data/speakers";
 
   interface Speaker {
@@ -84,9 +84,21 @@
         </div>
 
         {/* MODAL */}
+     <AnimatePresence>
      {selected && (
-  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/45 px-0 md:px-4">
-    <div className="relative w-full max-w-none md:max-w-6xl overflow-hidden rounded-md bg-white shadow-2xl flex flex-col h-[90vh] md:h-[680px]">
+  <motion.div 
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}
+    className="fixed inset-0 z-50 flex items-center justify-center bg-black/45 px-0 md:px-4"
+  >
+    <motion.div 
+      initial={{ scale: 0.95, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      exit={{ scale: 0.95, opacity: 0 }}
+      transition={{ duration: 0.3, ease: "easeOut" }}
+      className="relative w-full max-w-none md:max-w-6xl overflow-hidden rounded-md bg-white shadow-2xl flex flex-col h-[90vh] md:h-[680px]"
+    >
 
       {/* Close Button */}
       <button
@@ -119,14 +131,14 @@
             {/* Titles exactly like screenshot */}
             <p className="mt-2 text-[18px] leading-relaxed text-gray-800 whitespace-pre-line">
               {selected.title}
-              {"\n"}{selected.subtitle}
-              {"\n"}{selected.subtitle2}
-              {"\n"}{selected.subtitle3}
+              {selected.subtitle && `\n${selected.subtitle}`}
+              {selected.subtitle2 && `\n${selected.subtitle2}`}
+              {selected.subtitle3 && `\n${selected.subtitle3}`}
             </p>
           </div>
         </div>
         <div className=" mt-1 md:mt-8">
-          <p className="text-[16px] leading-relaxed text-[#2E8E9E] font-bold">
+          <p className="md:text-xl text-lg leading-relaxed text-[#2E8E9E] font-bold">
             { selected.Publishing&&"Publishing Workshop: "} {selected.Publishing}
           </p>
         </div>
@@ -135,10 +147,10 @@
         <div className="mt-6 md:mt-8">
 
 
-          <p className="text-[14px] md:text-[16px] leading-relaxed text-[#000000E5]">
+          <p className="md:text-xl text-lg leading-relaxed text-[#000000E5]">
             {selected.description}
           </p>
-           <p className="text-[14px] md:text-[16px]  leading-relaxed text-[#000000E5]">
+           <p className="md:text-xl text-lg  leading-relaxed text-[#000000E5]">
             {selected.description2}
           </p>
           <a
@@ -167,10 +179,11 @@
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
     
-  </div>
+  </motion.div>
 )}
+</AnimatePresence>
 
       </div>
     );
@@ -178,7 +191,7 @@
 
   function SpeakerCard({ sp, onClick }: { sp: Speaker; onClick: () => void }) {
     return (
-<div className="w-full max-w-[180px]">
+<div className="w-full max-w-[180px] cursor-pointer" onClick={onClick}>
         <Image
         alt="speakers"
   src={sp.image}

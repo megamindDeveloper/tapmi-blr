@@ -23,14 +23,14 @@ export default function ImportantDatesSection() {
             >
               {/* Date */}
               <div className="w-full md:w-[300px] shrink-0 mb-1 md:mb-0">
-                <p className="text-white font-semibold text-[18px] md:text-[22px] leading-tight">
+                <p className="text-white font-semibold  text-lg md:text-[22px] leading-tight">
                   {item.date}
                 </p>
               </div>
 
               {/* Description */}
               <div className="flex-1">
-                <p className="text-white/90 text-[14px] md:text-[24px] font-light leading-[20px] md:leading-relaxed">
+                <p className="text-white/90 md:text-xl text-lg md:text-[24px] font-light leading-[20px] md:leading-relaxed">
                   {item.description}
                 </p>
               </div>

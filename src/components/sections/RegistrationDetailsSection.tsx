@@ -13,7 +13,7 @@ export default function RegistrationDetailsSection() {
 
   return (
     <section id="registration" className="w-full py-16 bg-white font-sans text-black">
-      <div className=" mx-auto px-4 sm:px-6 lg:px-15">
+      <div className=" mx-auto px-8 sm:px-6 lg:px-15">
         
         {/* Title */}
         <div className="mb-0">
@@ -96,7 +96,7 @@ export default function RegistrationDetailsSection() {
 
                       {/* Early Career Data */}
                       <div className="grid grid-cols-3 w-full md:w-auto md:contents">
-                         <span className="md:hidden text-[18px] font-medium text-gray-700 text-center"> {item.label}</span>
+                         <span className="md:hidden text-[18px] font-medium text-gray-700 md:text-center text-start"> {item.label}</span>
                         <p className="text-[16px] md:text-[18px] text-black text-center">
                           {item.phd}
                         </p>

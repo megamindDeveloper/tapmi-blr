@@ -39,7 +39,7 @@ export default function HeroHeader() {
           isScrolled ? "bg-white shadow-md" : "bg-transparent"
         }`}
       >
-        <div className=" px-8 md:px-15 flex justify-between items-center">
+        <div className=" px-4 md:px-15 flex justify-between items-center">
 
           {/* LEFT LOGO */}
           <div className="flex items-center gap-4">
@@ -52,7 +52,7 @@ export default function HeroHeader() {
             />
           </div>
 <div className="mx-4 h-10 w-px bg-gray-300 md:hidden block" />          {/* RIGHT AREA */}
-          <div className="flex items-center md:gap-4 gap-16">
+          <div className="flex items-center md:gap-4 gap-16 pr-1">
 
             {/* RIGHT LOGO */}
             <Image

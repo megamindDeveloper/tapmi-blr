@@ -20,7 +20,7 @@ export default function AboutEventSection() {
             Order
           </h2>
 
-          <p className="md:text-[16px] text-[14px] leading-[28px] text-gray-700 mb-6 text-justify">
+          <p className="md:text-xl text-lg leading-[28px] text-gray-700 mb-6 text-justify">
             We are witnessing a transformative era marked by rapid shifts in global 
             power dynamics and systemic disruptions. Key drivers such as artificial 
             intelligence, war and trade conflicts, geopolitical realignments, digital 
@@ -44,7 +44,7 @@ export default function AboutEventSection() {
             />
           </div>
 
-          <p className="md:text-[16px] text-[14px]  leading-[28px] text-gray-700 text-justify">
+          <p className="md:text-xl text-lg  leading-[28px] text-gray-700 text-justify">
             In this evolving context, the need to understand and make sense of the 
             structural and affective impact of such changes is both urgent & necessary. 
             It is in this context that TAPMI Bengaluru, MAHE, in collaboration with 
