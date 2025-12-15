@@ -14,9 +14,9 @@ export default function HeroSection() {
         {/* Main Content Container */}
         <div className="flex-1 w-full max-w-full mx-auto px-4 sm:px-6 lg:px-15 flex items-center relative z-10">
           {/* LEFT CONTENT */}
-          <div className="w-full lg:w-[55%] py-2 -mt-25 md:mt-0 sm:py-6 lg:py-3">
+          <div className="w-full lg:w-[55%] py-2 -mt-23 md:mt-0 sm:py-6 lg:py-3">
             <p className="text-[24px] lg:text-[28px] text-[#1E9BB0] font-normal">
-              Intersection 2026
+              Intersection 2026dd
             </p>
 
             <h1 className="text-[38px] lg:text-[72px] leading-[1.2] sm:leading-[1.2] lg:leading-[72px] font-bold text-[#1E9BB0] mb-3 sm:mb-4  decoration-4 ">
