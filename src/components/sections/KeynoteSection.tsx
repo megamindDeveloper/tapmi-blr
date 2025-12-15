@@ -54,7 +54,7 @@
 
         <div className="max-w-7xl mx-auto px-8 md:px-4">
           {/* KEYNOTE SPEAKERS */}
-          <h2 className="text-center  text-[32px] md:text-[44px] font-medium mb-8">
+          <h2 className="text-center  text-[32px] md:text-5xl font-medium mb-8">
             Keynote Speakers
           </h2>
 
@@ -69,7 +69,7 @@
           </div>
 
           {/* FACILITATORS */}
-          <h2 className="text-center text-[32px] md:text-[44px] font-medium mb-8">Facilitators</h2>
+          <h2 className="text-center text-[32px] md:text-5xl font-medium mb-8">Facilitators</h2>
 
 <div
   className="

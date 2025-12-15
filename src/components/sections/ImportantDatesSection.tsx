@@ -6,7 +6,7 @@ export default function ImportantDatesSection() {
       <div className=" mx-auto px-8 md:px-0 max-w-[1400px] ">
 
         {/* Heading */}
-        <h2 className="text-white text-[26px] md:text-[45px] font-normal mb-8 md:mb-7 leading-tight">
+        <h2 className="text-white text-[26px] md:text-5xl font-normal mb-8 md:mb-7 leading-tight">
           Important Dates
         </h2>
 

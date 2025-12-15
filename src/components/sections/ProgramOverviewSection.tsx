@@ -14,43 +14,45 @@ export default function ProgramOverviewSection() {
     <section id="schedule" className="w-full py-8 md:py-20 bg-white">
       <div className="max-w-full mx-auto px-8 md:px-16">
         
-        {/* Heading */}
-        <h2 className="text-[24px] md:text-[45px] text-black font-medium mb-3 md:mb-10">
-          Program Overview{" "}
-          <span className="hidden md:inline font-thin text-[28px]">
-            {activeDay === "dayOne" ? "Day One" : "Day Two"}
-          </span>
-        </h2>
+        <div className="flex flex-col md:flex-row md:items-center justify-between md:gap-6 mb-6 md:mb-10">
+          {/* Heading */}
+          <h2 className="text-[24px] md:text-5xl text-black font-medium mb-3 md:mb-0">
+            Program Overview{" "}
+            <span className="hidden md:inline font-thin text-[28px]">
+              {activeDay === "dayOne" ? "Day One" : "Day Two"}
+            </span>
+          </h2>
 
-        {/* Tabs + Day Indicator (Mobile) / Tabs Only (Desktop) */}
-        <div className="flex justify-between md:justify-end items-center mb-6 md:mb-10">
-          {/* Day indicator - Only visible on mobile */}
-          <span className="md:hidden font-thin text-[18px] text-black">
-            {activeDay === "dayOne" ? "Day One" : "Day Two"}
-          </span>
+          {/* Tabs + Day Indicator (Mobile) / Tabs Only (Desktop) */}
+          <div className="flex justify-between items-center w-full md:w-auto">
+            {/* Day indicator - Only visible on mobile */}
+            <span className="md:hidden font-thin text-[18px] text-black">
+              {activeDay === "dayOne" ? "Day One" : "Day Two"}
+            </span>
 
-          <div className="relative flex p-1 bg-gray-100 rounded-full border border-gray-200 w-[200px] md:w-54.5">
-            <div
-              className={`absolute top-1 bottom-1 left-1 w-[95px] md:w-26 rounded-full bg-[#0EA5A9] transition-transform duration-300 ease-in-out ${
-                activeDay === "dayTwo" ? "translate-x-full" : "translate-x-0"
-              }`}
-            />
-            <button
-              onClick={() => setActiveDay("dayOne")}
-              className={`relative z-10 w-[95px] md:w-32 py-2 rounded-full text-[12px] md:text-[14px] font-medium transition-colors duration-300 ${
-                activeDay === "dayOne" ? "text-white" : "text-gray-600 hover:text-gray-900"
-              }`}
-            >
-              Day One
-            </button>
-            <button
-              onClick={() => setActiveDay("dayTwo")}
-              className={`relative z-10 w-[95px] md:w-32 py-2 rounded-full text-[12px] md:text-[14px] font-medium transition-colors duration-300 ${
-                activeDay === "dayTwo" ? "text-white" : "text-gray-600 hover:text-gray-900"
-              }`}
-            >
-              Day Two
-            </button>
+            <div className="relative flex p-1 bg-gray-100 rounded-full border border-gray-200 w-[200px] md:w-54.5">
+              <div
+                className={`absolute top-1 bottom-1 left-1 w-[95px] md:w-26 rounded-full bg-[#0EA5A9] transition-transform duration-300 ease-in-out ${
+                  activeDay === "dayTwo" ? "translate-x-full" : "translate-x-0"
+                }`}
+              />
+              <button
+                onClick={() => setActiveDay("dayOne")}
+                className={`relative z-10 w-[95px] md:w-32 py-2 rounded-full text-[12px] md:text-[14px] font-medium transition-colors duration-300 ${
+                  activeDay === "dayOne" ? "text-white" : "text-gray-600 hover:text-gray-900"
+                }`}
+              >
+                Day One
+              </button>
+              <button
+                onClick={() => setActiveDay("dayTwo")}
+                className={`relative z-10 w-[95px] md:w-32 py-2 rounded-full text-[12px] md:text-[14px] font-medium transition-colors duration-300 ${
+                  activeDay === "dayTwo" ? "text-white" : "text-gray-600 hover:text-gray-900"
+                }`}
+              >
+                Day Two
+              </button>
+            </div>
           </div>
         </div>
 
