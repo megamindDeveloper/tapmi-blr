@@ -77,7 +77,7 @@ export default function KeynoteSection() {
           <div className=" flex items-center justify-center  ">
 
           </div>
-            <p className=" md:text-xl text-lg font-normal text-justify md:text-center py-4">As part of Intersection 2026, senior scholars and journal editors will facilitate a focused Publishing Workshop Series for PhD scholars and early career researchers. The sessions will address ethics in publication (AI and beyond), avoiding desk rejection and securing an R&R, job market papers and interviews, and fieldwork and research ethics, offering practical insights for successful publishing and academic careers. </p>
+            <p className=" md:text-xl text-lg font-normal text-justify md:text-center  mt-8">As part of Intersection 2026, senior scholars and journal editors will facilitate a focused Publishing Workshop Series for PhD scholars and early career researchers. The sessions will address ethics in publication (AI and beyond), avoiding desk rejection and securing an R&R, job market papers and interviews, and fieldwork and research ethics, offering practical insights for successful publishing and academic careers. </p>
         </div>
            <div
           className="
@@ -105,7 +105,7 @@ export default function KeynoteSection() {
                       <span className="text-[#2E8E9EE5] md:text-3xl text-lg  font-bold flex gap-3 py-4">Time: 02:00 PM - 03:45 PM <span className="md:block hidden -mt-1 ">|</span> <br className="md:hidden block" /> Date: 13th March 2026</span>
 
           </div>
-            <p className=" md:text-xl text-lg font-normal text-justify md:text-center">As part of Intersection 2026, this panel discussion brings together distinguished editors from leading journals to provide PhD scholars and early-career researchers with firsthand insights into the academic publishing landscape. Under the theme Navigating the Publishing Landscape with Insights from Leading Editors, the session will cover editorial expectations, evolving peer-review practices, and emerging trends shaping research across disciplines. The discussion will also highlight the importance of research ethics, transparency, and the key factors influencing editorial decisions and retractions, offering participants practical guidance for successful publishing. </p>
+            <p className=" md:text-xl text-lg font-normal text-justify md:text-center mt-5">As part of Intersection 2026, this panel discussion brings together distinguished editors from leading journals to provide PhD scholars and early-career researchers with firsthand insights into the academic publishing landscape. Under the theme Navigating the Publishing Landscape with Insights from Leading Editors, the session will cover editorial expectations, evolving peer-review practices, and emerging trends shaping research across disciplines. The discussion will also highlight the importance of research ethics, transparency, and the key factors influencing editorial decisions and retractions, offering participants practical guidance for successful publishing. </p>
         </div>
            <div
           className="
