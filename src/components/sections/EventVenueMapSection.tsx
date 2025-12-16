@@ -58,6 +58,7 @@ export default function EventVenueSection() {
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.545023547391!2d77.58836297482189!3d13.127984011430867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae146c1aeeb9fb%3A0xf51149b8ae2bd6e5!2sT.%20A.%20Pai%20Management%20Institute!5e0!3m2!1sen!2sin!4v1765886548875!5m2!1sen!2sin"
           width={2000}
           height={1000}
+           className="w-full h-full border-0"
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
