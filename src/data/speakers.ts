@@ -57,7 +57,7 @@ const speakers: SpeakersData = {
       Publishing: "Publishing Workshop: How to Avoid Desk Rejection: Tips & Tricks for R&R",
 
 
-      description: "Prof Sushanta Kumar Mishra is a Professor at IIM Bangalore. His research has been published in several FT50 journals and leading international outlets. His work has received multiple distinctions, including Best Accepted Paper and recognition as a Carolyn B. Dexter Award Finalist at the Academy of Management Conferences, along with honours such as the Michael Poole Highly Commended Award and the Career Division Best Published Paper Award Finalist. He chairs the Research & Publication Centre, the Centre for Teaching and Learning, and the Case Centre at IIM Bangalore.",
+      description: "Prof. Sushanta Kumar Mishra is a Professor at IIM Bangalore. His research has been published in several FT50 journals and leading international outlets. His work has received multiple distinctions, including Best Accepted Paper and recognition as a Carolyn B. Dexter Award Finalist at the Academy of Management Conferences, along with honours such as the Michael Poole Highly Commended Award and the Career Division Best Published Paper Award Finalist. He chairs the Research & Publication Centre, the Centre for Teaching and Learning, and the Case Centre at IIM Bangalore.",
       description2: "He is also Editor-in-Chief of IIMB Management Review and a former President of the Indian Academy of Management",
       readMoreLink: "https://lnkd.in/g5_zvSs3"
     },
