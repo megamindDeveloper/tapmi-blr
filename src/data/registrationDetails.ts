@@ -52,7 +52,7 @@ export const registrationTable = {
         },
       ],
       footnote:
-        " Due date for submission of extended abstracts is 20th February 2026 (only applicable for accepted papers).",
+        " Due date for submission of extended abstracts is 28th February 2026 (only applicable for accepted papers).",
     },
   ],
 };
