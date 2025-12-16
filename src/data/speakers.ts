@@ -57,7 +57,7 @@ const speakers: SpeakersData = {
       Publishing: "Publishing Workshop: How to Avoid Desk Rejection: Tips & Tricks for R&R",
 
 
-      description: "Sushanta Kumar Mishra is a Professor at IIM Bangalore. His research has been published in several FT50 journals and leading international outlets. His work has received multiple distinctions, including Best Accepted Paper and recognition as a Carolyn B. Dexter Award Finalist at the Academy of Management Conferences, along with honours such as the Michael Poole Highly Commended Award and the Career Division Best Published Paper Award Finalist. He chairs the Research & Publication Centre, the Centre for Teaching and Learning, and the Case Centre at IIM Bangalore.",
+      description: "Prof Sushanta Kumar Mishra is a Professor at IIM Bangalore. His research has been published in several FT50 journals and leading international outlets. His work has received multiple distinctions, including Best Accepted Paper and recognition as a Carolyn B. Dexter Award Finalist at the Academy of Management Conferences, along with honours such as the Michael Poole Highly Commended Award and the Career Division Best Published Paper Award Finalist. He chairs the Research & Publication Centre, the Centre for Teaching and Learning, and the Case Centre at IIM Bangalore.",
       description2: "He is also Editor-in-Chief of IIMB Management Review and a former President of the Indian Academy of Management",
       readMoreLink: "https://lnkd.in/g5_zvSs3"
     },
@@ -71,7 +71,7 @@ const speakers: SpeakersData = {
       image: "/images/speakers/rahul.png",
       Publishing: "Publishing Workshop: Ethics in Publication (Al and Beyond)",
 
-      description: "Rahul De’ retired as Professor of Information Systems at the Indian Institute of Management Bangalore in 2024. His research interests span AI, ICT for Development, Electronic Government, Open Source, Internet Governance, and Digital Transformation. He has published four books and over 100 articles in refereed scientific journals, and serves on the editorial boards of four international journals. His recent work has appeared in leading outlets such as Information Systems Journal, Research Policy, Journal of Information Technology, Journal of Computer Information Systems, International Journal of Information Management, and Information Systems Frontiers. He received his PhD from the AI in Management Lab at the University of Pittsburgh in 1993. He is currently the Founder and CEO of Memoric AI, a startup focused on consulting, research, and training in AI applications.",
+      description: "Prof. Rahul De’ retired as Professor of Information Systems at the Indian Institute of Management Bangalore in 2024. His research interests span AI, ICT for Development, Electronic Government, Open Source, Internet Governance, and Digital Transformation. He has published four books and over 100 articles in refereed scientific journals, and serves on the editorial boards of four international journals. His recent work has appeared in leading outlets such as Information Systems Journal, Research Policy, Journal of Information Technology, Journal of Computer Information Systems, International Journal of Information Management, and Information Systems Frontiers. He received his PhD from the AI in Management Lab at the University of Pittsburgh in 1993. He is currently the Founder and CEO of Memoric AI, a startup focused on consulting, research, and training in AI applications.",
       readMoreLink: " https://lnkd.in/gXMz3WpX"
     },
     {
@@ -83,37 +83,37 @@ const speakers: SpeakersData = {
 
       Publishing: "Publishing Workshop:Job Market Paper and Interview",
 
-      description: "Dr. Rakesh Kumar Pati is a Senior Lecturer in Management at Deakin University with expertise in strategy, innovation, and entrepreneurship. A Fulbright Doctoral Fellow at the University of Minnesota and a Visiting Professor at Oxford University, his research has been published in leading journals including Personnel Psychology, Harvard Business Review, and Long-Range Planning. With over a decade of international academic experience, he has helped secure more than $1.2 million in competitive research funding. An award-winning educator, Dr. Pati has designed and delivered executive programs for prominent organizations such as the National Stock Exchange of India, ANZ, and AustralianSuper.",
+      description: "Prof.Rakesh Kumar Pati is a Senior Lecturer in Management at Deakin University with expertise in strategy, innovation, and entrepreneurship. A Fulbright Doctoral Fellow at the University of Minnesota and a Visiting Professor at Oxford University, his research has been published in leading journals including Personnel Psychology, Harvard Business Review, and Long-Range Planning. With over a decade of international academic experience, he has helped secure more than $1.2 million in competitive research funding. An award-winning educator, Dr. Pati has designed and delivered executive programs for prominent organizations such as the National Stock Exchange of India, ANZ, and AustralianSuper.",
       readMoreLink: "https://lnkd.in/gDSbhXBK"
     },
     {
       id: 6,
-      name: "Dr. Carol Upadhya",
+      name: "Prof. Carol Upadhya",
       title: "Honorary Visiting Professor at the National Institute of Advanced Studies, Bengaluru, India",
       subtitle: "Co-editor of the Journal of South Asian Development",
       image: "/images/speakers/carol.png",
       Publishing: "Publishing Workshop: Fieldwork and Ethics",
-      description: "Carol Upadhya, a social anthropologist, is Honorary Visiting Professor at the National Institute of Advanced Studies, Bengaluru, where she leads the Urban and Mobility Studies Programme. Her recent publication is a collaborative volume on Bengaluru’s transformations titled \"Chronicles of a Global City: Speculative Lives and Unsettled Futures in Bengaluru\" (University of Minnesota Press, 2024; Yoda Press, 2025). She is also the author of \"Reengineering India: Work, Capital, and Class in an Offshore Economy\" (Oxford University Press, 2016), and her forthcoming monograph on the Amaravati project in Andhra Pradesh will be published by Berghahn Books in May 2026. Upadhya is co-editor of the Journal of South Asian Development.",
+      description: "Prof. Carol Upadhya, a social anthropologist, is Honorary Visiting Professor at the National Institute of Advanced Studies, Bengaluru, where she leads the Urban and Mobility Studies Programme. Her recent publication is a collaborative volume on Bengaluru’s transformations titled \"Chronicles of a Global City: Speculative Lives and Unsettled Futures in Bengaluru\" (University of Minnesota Press, 2024; Yoda Press, 2025). She is also the author of \"Reengineering India: Work, Capital, and Class in an Offshore Economy\" (Oxford University Press, 2016), and her forthcoming monograph on the Amaravati project in Andhra Pradesh will be published by Berghahn Books in May 2026. Upadhya is co-editor of the Journal of South Asian Development.",
       readMoreLink: "https://lnkd.in/gP9aDJ_D"
     }
   ],
   Editorial: [
     {
       id: 7,
-      name: "Dr. Dishari Chattaraj",
+      name: "Prof. Dishari Chattaraj",
       title: "Editor - Humanities and Social Science Communications (Springer Nature)",
       subtitle: "Indian Institute of Technology Indore",
       image: "/images/speakers/dishari.png",
       Publishing: "Panel Theme: Navigating the Publishing Landscape—Insights from Leading Editors ",
 
 
-      description: "Dr. Dishari Chattaraj is an Assistant Professor at SHSS, the Indian Institute of Technology Indore, where she leads the Education and Critical Food Studies Lab. She has served as a Visiting Faculty at the Indian Institute of Management Rohtak. Chattaraj holds a PhD from Jawaharlal Nehru University in New Delhi and was a Fulbright Fellow at Indiana University Bloomington, USA. She has received several international grants for her research, including the ASHDRA UK and NFMLTA Support Grant USA. She has co-edited two volumes (2024, Springer Nature) and authored one monograph, titled Food Literacy, Curriculum, and the Global South: Examples from South Asia (2025, Palgrave Macmillan). Chattaraj is on the editorial board of Humanities and Social Science Communications (Nature) and has served as a peer reviewer for several journals, including the Journal of Computer in Education (Springer Nature), Learning Environments Research (Springer Nature), and Public Humanities (Cambridge University Press), among others.",
+      description: "Prof. Dishari Chattaraj is an Assistant Professor at SHSS, the Indian Institute of Technology Indore, where she leads the Education and Critical Food Studies Lab. She has served as a Visiting Faculty at the Indian Institute of Management Rohtak. Chattaraj holds a PhD from Jawaharlal Nehru University in New Delhi and was a Fulbright Fellow at Indiana University Bloomington, USA. She has received several international grants for her research, including the ASHDRA UK and NFMLTA Support Grant USA. She has co-edited two volumes (2024, Springer Nature) and authored one monograph, titled Food Literacy, Curriculum, and the Global South: Examples from South Asia (2025, Palgrave Macmillan). Chattaraj is on the editorial board of Humanities and Social Science Communications (Nature) and has served as a peer reviewer for several journals, including the Journal of Computer in Education (Springer Nature), Learning Environments Research (Springer Nature), and Public Humanities (Cambridge University Press), among others.",
       description2: "",
       readMoreLink: ""
     },
     {
       id: 8,
-      name: "Dr. K. Mathiyazhagan",
+      name: "Prof. K. Mathiyazhagan",
       title: "Assistant/Associate Editor: Technological Forecasting and Social Change, Journal of Knowledge ",
       subtitle: "Management, Journal of Intellectual Capital, and Environment, Development and Sustainability",
       subtitle2: "Thiagarajar School of Management",
@@ -121,7 +121,7 @@ const speakers: SpeakersData = {
       image: "/images/speakers/mathiyazhagan.png",
       Publishing: "Panel Theme: Navigating the Publishing Landscape—Insights from Leading Editors ",
 
-      description: "Dr. K. Mathiyazhagan is Professor and Head of the Research Centre at Thiagarajar School of Management, with over a decade of experience in teaching and research. He is listed among Stanford’s Top 2% Scientists and has over 8,000 citations, with an H-index of 40 (Google Scholar) and 34 (Scopus). He serves as Assistant/Associate Editor for several high-impact journals, including Technological Forecasting and Social Change, Journal of Knowledge Management, Journal of Intellectual Capital, and Environment, Development and Sustainability, and has also been a guest editor for leading international journals. An active reviewer for over 30 international journals, he has published extensively in top-tier outlets, received multiple excellence and best paper awards, edited international books, secured major research grants including AICTE ATAL FDPs, and collaborates widely with global universities. His research interests include Sustainable Supply Chain Management, Circular Economy, Lean Six Sigma, and Multi-Criteria Decision Making.",
+      description: "Prof. K. Mathiyazhagan is Professor and Head of the Research Centre at Thiagarajar School of Management, with over a decade of experience in teaching and research. He is listed among Stanford’s Top 2% Scientists and has over 8,000 citations, with an H-index of 40 (Google Scholar) and 34 (Scopus). He serves as Assistant/Associate Editor for several high-impact journals, including Technological Forecasting and Social Change, Journal of Knowledge Management, Journal of Intellectual Capital, and Environment, Development and Sustainability, and has also been a guest editor for leading international journals. An active reviewer for over 30 international journals, he has published extensively in top-tier outlets, received multiple excellence and best paper awards, edited international books, secured major research grants including AICTE ATAL FDPs, and collaborates widely with global universities. His research interests include Sustainable Supply Chain Management, Circular Economy, Lean Six Sigma, and Multi-Criteria Decision Making.",
       readMoreLink: ""
     },
     {
@@ -138,7 +138,7 @@ const speakers: SpeakersData = {
     },
     {
       id: 10,
-      name: "Dr. Rudra Sensarma",
+      name: "Prof. Rudra Sensarma",
       title: "Managing Editor of Society and Management",
       subtitle: "Indian Institute of Management Kozhikode",
       image: "/images/speakers/rudra.png",
