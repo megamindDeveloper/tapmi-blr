@@ -121,7 +121,7 @@ const speakers: SpeakersData = {
       image: "/images/speakers/mathiyazhagan.png",
       Publishing: "Panel Theme: Navigating the Publishing Landscape—Insights from Leading Editors ",
 
-      description: "Prof. K. Mathiyazhagan is Professor and Head of the Research Centre at Thiagarajar School of Management, with over a decade of experience in teaching and research. He is listed among Stanford’s Top 2% Scientists and has over 8,000 citations, with an H-index of 40 (Google Scholar) and 34 (Scopus). He serves as Assistant/Associate Editor for several high-impact journals, including Technological Forecasting and Social Change, Journal of Knowledge Management, Journal of Intellectual Capital, and Environment, Development and Sustainability, and has also been a guest editor for leading international journals. An active reviewer for over 30 international journals, he has published extensively in top-tier outlets, received multiple excellence and best paper awards, edited international books, secured major research grants including AICTE ATAL FDPs, and collaborates widely with global universities. His research interests include Sustainable Supply Chain Management, Circular Economy, Lean Six Sigma, and Multi-Criteria Decision Making.",
+      description: "Prof. K. Mathiyazhagan is Professor and Head of the Research Centre at Thiagarajar School of Management, with over a decade of experience in teaching and research. He is listed among Stanford’s Top 2% Scientists and has over 9,000 citations, with an H-index of 40 (Google Scholar) and 34 (Scopus). He serves as Assistant/Associate Editor for several high-impact journals, including Technological Forecasting and Social Change, Journal of Knowledge Management, Journal of Intellectual Capital, and Environment, Development and Sustainability, and has also been a guest editor for leading international journals. An active reviewer for over 30 international journals, he has published extensively in top-tier outlets, received multiple excellence and best paper awards, edited international books, secured major research grants including AICTE ATAL FDPs, and collaborates widely with global universities. His research interests include Sustainable Supply Chain Management, Circular Economy, Lean Six Sigma, and Multi-Criteria Decision Making.",
       readMoreLink: ""
     },
     {
@@ -139,7 +139,7 @@ const speakers: SpeakersData = {
     {
       id: 10,
       name: "Prof. Rudra Sensarma",
-      title: "Managing Editor of Society and Management",
+      title: "Former Managing Editor of Society and Management Review",
       subtitle: "Indian Institute of Management Kozhikode",
       image: "/images/speakers/rudra.png",
       Publishing: "Panel Theme: Navigating the Publishing Landscape—Insights from Leading Editors ",
