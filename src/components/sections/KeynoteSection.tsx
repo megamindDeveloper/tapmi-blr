@@ -202,6 +202,7 @@ export default function KeynoteSection() {
                   </p>
                   {selected.readMoreLink &&
                     <a
+                    target="_blank"
                     href={selected.readMoreLink}
                     className="mt-6 inline-flex items-center gap-2 text-[15px] font-semibold text-[#2E8E9EE5] hover:text-[#72bfcd] transition-all cursor-pointer   "
                   >
@@ -224,7 +225,7 @@ export default function KeynoteSection() {
                     Become a part of Intersection 2026
                   </h4>
 
-                  <a href="https://forms.gle/y9h7p1ZebvSE3GFg9" className=" bg-white px-6 py-4 text-[15px] font-bold text-[#2E8E9E] shadow-sm transition hover:bg-gray-100">
+                  <a href="https://forms.gle/y9h7p1ZebvSE3GFg9" target="_blank" className=" bg-white px-6 py-4 text-[15px] font-bold text-[#2E8E9E] shadow-sm transition hover:bg-gray-100">
                     Submit Your Abstract
                   </a>
                 </div>

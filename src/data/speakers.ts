@@ -91,7 +91,7 @@ const speakers: SpeakersData = {
       name: "Prof. Carol Upadhya",
       title: "Honorary Visiting Professor at the National Institute of Advanced Studies, Bengaluru, India",
       subtitle: "Co-editor of the Journal of South Asian Development",
-      image: "/images/speakers/carol.png",
+      image: "/images/speakers/carolImg1.jpg",
       Publishing: "Publishing Workshop: Fieldwork and Ethics",
       description: "Prof. Carol Upadhya, a social anthropologist, is Honorary Visiting Professor at the National Institute of Advanced Studies, Bengaluru, where she leads the Urban and Mobility Studies Programme. Her recent publication is a collaborative volume on Bengaluru’s transformations titled \"Chronicles of a Global City: Speculative Lives and Unsettled Futures in Bengaluru\" (University of Minnesota Press, 2024; Yoda Press, 2025). She is also the author of \"Reengineering India: Work, Capital, and Class in an Offshore Economy\" (Oxford University Press, 2016), and her forthcoming monograph on the Amaravati project in Andhra Pradesh will be published by Berghahn Books in May 2026. Upadhya is co-editor of the Journal of South Asian Development.",
       readMoreLink: "https://lnkd.in/gP9aDJ_D"

@@ -29,9 +29,13 @@ export default function HeroSection() {
               Social Sciences, and Humanities
             </p>
 
-            <button onClick={() => {
-              window.location.href = "https://forms.gle/y9h7p1ZebvSE3GFg9"
-            }} className="bg-[#1E9BB0] hover:bg-[#1a8a9d] transition text-white px-3 sm:px-4 py-3 sm:py-3 text-[17px] font-bold mt-2 sm:mb-6 lg:mb-8 ">
+            <button  onClick={() => {
+    window.open(
+      "https://forms.gle/y9h7p1ZebvSE3GFg9",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  }} className="bg-[#1E9BB0] hover:bg-[#1a8a9d] transition text-white px-3 sm:px-4 py-3 sm:py-3 text-[17px] font-bold mt-2 sm:mb-6 lg:mb-8 ">
               Submit Your Abstract
             </button>
 
