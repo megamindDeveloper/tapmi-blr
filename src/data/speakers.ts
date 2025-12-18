@@ -102,7 +102,7 @@ const speakers: SpeakersData = {
     {
       id: 7,
       name: "Prof. Dishari Chattaraj",
-      title: "Editor - Humanities and Social Science Communications (Springer Nature)",
+      title: "Editorial Board Member - Humanities and Social Science Communications (Springer Nature)",
       subtitle: "Indian Institute of Technology Indore",
       image: "/images/speakers/dishari.png",
       Publishing: "Panel Theme: Navigating the Publishing Landscape—Insights from Leading Editors ",
