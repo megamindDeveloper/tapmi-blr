@@ -21,6 +21,7 @@ export default function EventVenueSection() {
 
           <a
             href="https://maps.app.goo.gl/PnQrV5bboqxAX2RJ8"
+            target="_blank"
             className="inline-block text-[16px] font-thin text-white/90 border-b-[1.5px] border-white/80 mb-8 "
           >
             View on Maps
@@ -85,6 +86,7 @@ export default function EventVenueSection() {
 
           <a
             href="https://maps.app.goo.gl/PnQrV5bboqxAX2RJ8"
+            target="_blank"
             className="
               inline-block text-[18px] font-thin 
               text-white/90 border-b-[2px] border-white/80 

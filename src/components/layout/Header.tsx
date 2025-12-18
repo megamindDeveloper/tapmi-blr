@@ -43,6 +43,7 @@ export default function PageNavHeader() {
           <a onClick={() => scrollToSection("venue")} href="#venue" className="hover:opacity-80 transition">Venue</a>
 <a
   href="https://forms.gle/y9h7p1ZebvSE3GFg9"
+  target="_blank"
   className="
     h-[66px]
     px-4

@@ -119,7 +119,7 @@ export default function HeroHeader() {
 
            
               <div className="mt-auto mb-16 mx-8">
-                <a href="https://forms.gle/y9h7p1ZebvSE3GFg9" className="block w-full bg-white text-[#298A95] py-4 font-bold shadow text-center">
+                <a href="https://forms.gle/y9h7p1ZebvSE3GFg9" target="_blank" className="block w-full bg-white text-[#298A95] py-4 font-bold shadow text-center">
                   Submit Your Abstract
                 </a>
               </div>
