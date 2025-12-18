@@ -28,7 +28,8 @@ const speakers: SpeakersData = {
       subtitle: "Pro Vice Chancellor [Management, Law, Humanities and Social Sciences]",
       image: "/images/speakers/madhu.png",
       description:
-        "Prof. Madhu Veeraraghavan, T. A. Pai Chair Professor of Finance and Dr. T. M. A. Pai Endowment Chair in Management Research at TAPMI, is a distinguished scholar in Corporate Finance and Behavioural Finance, with his work focusing on the interplay between Auditing and Finance. With over 50 publications in leading international journals, including The Accounting Review, Journal of Financial Economics, and Journal of Corporate Finance, he has presented at major global conferences and serves as a reviewer for several top-tier journals in finance and accounting. ",
+  "Prof. Madhu Veeraraghavan, T. A. Pai Chair Professor of Finance and Dr. T. M. A. Pai Endowment Chair in Management Research at TAPMI, is a distinguished scholar in Corporate Finance and Behavioural Finance, with his work focusing on the interplay between Auditing and Finance. With over 50 publications in leading international journals, including *Accounting Review, Journal of Financial Economics, and Journal of Corporate Finance*, he has presented at major global conferences and serves as a reviewer for several top-tier journals in finance and accounting.",
+
       readMoreLink: "https://lnkd.in/gwiVWstG"
     },
     {
@@ -40,7 +41,7 @@ const speakers: SpeakersData = {
       image: "/images/speakers/colin.png",
 
       description:
-        "Colin Higgins is a Professor of Management whose research examines how organisations use language in social, environmental, and sustainability reporting, including the role of integrated reporting in addressing business and sustainability challenges. He is Co-Editor-in-Chief of the A-ranked Business & Society journal and has held major leadership roles in the Academy of Management's SIM Division. A former President, Fellow, and Conference Chair of IABS, his work appears in leading journals such as Accounting, Auditing and Accountability, Journal of Business Ethics, Journal of Cleaner Production, and Accounting Forum.",
+        "Colin Higgins is a Professor of Management whose research examines how organisations use language in social, environmental, and sustainability reporting, including the role of integrated reporting in addressing business and sustainability challenges. He is Co-Editor-in-Chief of the A-ranked Business & Society journal and has held major leadership roles in the Academy of Management's SIM Division. A former President, Fellow, and Conference Chair of IABS, his work appears in leading journals such as *Accounting, Auditing and Accountability, Journal of Business Ethics, Journal of Cleaner Production, and Accounting Forum*.",
       description2: "Colin has held multiple leadership roles at Deakin and across the Asia-Pacific, including leading the Deakin MBA, driving EdTech innovation, and serving as Associate Dean (International), where he strengthened TNE partnerships, research collaborations, and international student experiences.",
 
       readMoreLink: "https://lnkd.in/gwqTDxEC"
@@ -93,7 +94,7 @@ const speakers: SpeakersData = {
       subtitle: "Co-editor of the Journal of South Asian Development",
       image: "/images/speakers/carolImg1.jpg",
       Publishing: "Publishing Workshop: Fieldwork and Ethics",
-      description: "Prof. Carol Upadhya, a social anthropologist, is Honorary Visiting Professor at the National Institute of Advanced Studies, Bengaluru, where she leads the Urban and Mobility Studies Programme. Her recent publication is a collaborative volume on Bengaluru’s transformations titled \"Chronicles of a Global City: Speculative Lives and Unsettled Futures in Bengaluru\" (University of Minnesota Press, 2024; Yoda Press, 2025). She is also the author of \"Reengineering India: Work, Capital, and Class in an Offshore Economy\" (Oxford University Press, 2016), and her forthcoming monograph on the Amaravati project in Andhra Pradesh will be published by Berghahn Books in May 2026. Upadhya is co-editor of the Journal of South Asian Development.",
+      description: "Prof. Carol Upadhya, a social anthropologist, is Honorary Visiting Professor at the National Institute of Advanced Studies, Bengaluru, where she leads the Urban and Mobility Studies Programme. Her recent publication is a collaborative volume on Bengaluru’s transformations titled *Chronicles of a Global City: Speculative Lives and Unsettled Futures in Bengaluru* (University of Minnesota Press, 2024; Yoda Press, 2025). She is also the author of *Reengineering India: Work, Capital, and Class in an Offshore Economy* (Oxford University Press, 2016), and her forthcoming monograph on the Amaravati project in Andhra Pradesh will be published by Berghahn Books in May 2026. Upadhya is co-editor of the *Journal of South Asian Development*.",
       readMoreLink: "https://lnkd.in/gP9aDJ_D"
     }
   ],
@@ -107,7 +108,7 @@ const speakers: SpeakersData = {
       Publishing: "Panel Theme: Navigating the Publishing Landscape—Insights from Leading Editors ",
 
 
-      description: "Prof. Dishari Chattaraj is an Assistant Professor at SHSS, the Indian Institute of Technology Indore, where she leads the Education and Critical Food Studies Lab. She has served as a Visiting Faculty at the Indian Institute of Management Rohtak. Chattaraj holds a PhD from Jawaharlal Nehru University in New Delhi and was a Fulbright Fellow at Indiana University Bloomington, USA. She has received several international grants for her research, including the ASHDRA UK and NFMLTA Support Grant USA. She has co-edited two volumes (2024, Springer Nature) and authored one monograph, titled Food Literacy, Curriculum, and the Global South: Examples from South Asia (2025, Palgrave Macmillan). Chattaraj is on the editorial board of Humanities and Social Science Communications (Nature) and has served as a peer reviewer for several journals, including the Journal of Computer in Education (Springer Nature), Learning Environments Research (Springer Nature), and Public Humanities (Cambridge University Press), among others.",
+      description: "Prof. Dishari Chattaraj is an Assistant Professor at SHSS, the *Indian Institute of Technology Indore*, where she leads the Education and Critical Food Studies Lab. She has served as a Visiting Faculty at the *Indian Institute of Management Rohtak*. Chattaraj holds a PhD from Jawaharlal Nehru University in New Delhi and was a Fulbright Fellow at Indiana University Bloomington, USA. She has received several international grants for her research, including the ASHDRA UK and NFMLTA Support Grant USA. She has co-edited two volumes (2024, Springer Nature) and authored one monograph, titled Food Literacy, Curriculum, and the Global South: Examples from South Asia (2025, Palgrave Macmillan). Chattaraj is on the editorial board of Humanities and Social Science Communications (Nature) and has served as a peer reviewer for several journals, including the Journal of Computer in Education (Springer Nature), Learning Environments Research (Springer Nature), and Public Humanities (Cambridge University Press), among others.",
       description2: "",
       readMoreLink: ""
     },

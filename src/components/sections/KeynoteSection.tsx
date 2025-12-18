@@ -21,6 +21,24 @@ interface Speaker {
 }
 
 export default function KeynoteSection() {
+
+  
+const renderItalicText = (text: string) => {
+  return text.split(/(\*.*?\*)/g).map((part, index) => {
+    if (part.startsWith("*") && part.endsWith("*")) {
+      return (
+        <span key={index} className="italic">
+          {part.slice(1, -1)}
+        </span>
+      );
+    }
+    return <span key={index}>{part}</span>;
+  });
+};
+
+
+
+  
   const [selected, setSelected] = useState<Speaker | null>(null);
 
   // Lock background scroll when modal is open
@@ -194,9 +212,9 @@ export default function KeynoteSection() {
                 <div className="mt-6 md:mt-8">
 
 
-                  <p className="md:text-xl text-lg text-justify leading-relaxed text-[#000000E5]">
-                    {selected.description}
-                  </p>
+                 <p className="md:text-xl text-lg text-justify leading-relaxed text-[#000000E5]">
+  {renderItalicText(selected.description)}
+</p>
                   <p className="md:text-xl text-lg md:text-start text-justify  leading-relaxed text-[#000000E5]">
                     {selected.description2}
                   </p>

@@ -15,8 +15,8 @@ export default function EventVenueSection() {
           <p className="text-[15px] font-thin leading-6 mb-4">
             T A Pai Management Institute<br />
             Manipal Academy of Higher Education,<br />
-            Thanisandra Main Rd, Chokkanahalli,<br />
-            Bengaluru, Karnataka 560064
+            Govindapura, Yelahanka,<br />
+            Bengaluru 560063, Karnataka, India
           </p>
 
           <a
@@ -80,8 +80,8 @@ export default function EventVenueSection() {
           <p className="text-[18px] font-thin leading-6 mb-5">
             T A Pai Management Institute<br />
             Manipal Academy of Higher Education,<br />
-            Thanisandra Main Rd, Chokkanahalli,<br />
-            Bengaluru, Karnataka 560064
+            Govindapura, Yelahanka,<br />
+            Bengaluru 560063, Karnataka, India
           </p>
 
           <a
