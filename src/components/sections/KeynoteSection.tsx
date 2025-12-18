@@ -21,6 +21,24 @@ interface Speaker {
 }
 
 export default function KeynoteSection() {
+
+  
+const renderItalicText = (text: string) => {
+  return text.split(/(\*.*?\*)/g).map((part, index) => {
+    if (part.startsWith("*") && part.endsWith("*")) {
+      return (
+        <span key={index} className="italic">
+          {part.slice(1, -1)}
+        </span>
+      );
+    }
+    return <span key={index}>{part}</span>;
+  });
+};
+
+
+
+  
   const [selected, setSelected] = useState<Speaker | null>(null);
 
   // Lock background scroll when modal is open
@@ -194,14 +212,15 @@ export default function KeynoteSection() {
                 <div className="mt-6 md:mt-8">
 
 
-                  <p className="md:text-xl text-lg text-justify leading-relaxed text-[#000000E5]">
-                    {selected.description}
-                  </p>
+                 <p className="md:text-xl text-lg text-justify leading-relaxed text-[#000000E5]">
+  {renderItalicText(selected.description)}
+</p>
                   <p className="md:text-xl text-lg md:text-start text-justify  leading-relaxed text-[#000000E5]">
                     {selected.description2}
                   </p>
                   {selected.readMoreLink &&
                     <a
+                    target="_blank"
                     href={selected.readMoreLink}
                     className="mt-6 inline-flex items-center gap-2 text-[15px] font-semibold text-[#2E8E9EE5] hover:text-[#72bfcd] transition-all cursor-pointer   "
                   >
@@ -224,7 +243,7 @@ export default function KeynoteSection() {
                     Become a part of Intersection 2026
                   </h4>
 
-                  <a href="https://forms.gle/y9h7p1ZebvSE3GFg9" className=" bg-white px-6 py-4 text-[15px] font-bold text-[#2E8E9E] shadow-sm transition hover:bg-gray-100">
+                  <a href="https://forms.gle/y9h7p1ZebvSE3GFg9" target="_blank" className=" bg-white px-6 py-4 text-[15px] font-bold text-[#2E8E9E] shadow-sm transition hover:bg-gray-100">
                     Submit Your Abstract
                   </a>
                 </div>

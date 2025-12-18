@@ -15,12 +15,13 @@ export default function EventVenueSection() {
           <p className="text-[15px] font-thin leading-6 mb-4">
             T A Pai Management Institute<br />
             Manipal Academy of Higher Education,<br />
-            Thanisandra Main Rd, Chokkanahalli,<br />
-            Bengaluru, Karnataka 560064
+            Govindapura, Yelahanka,<br />
+            Bengaluru 560063, Karnataka, India
           </p>
 
           <a
-            href="https://maps.app.goo.gl/PnQrV5bboqxAX2RJ8"
+            href="https://maps.app.goo.gl/yxDXjJt8XEQs4Fon6"
+            target="_blank"
             className="inline-block text-[16px] font-thin text-white/90 border-b-[1.5px] border-white/80 mb-8 "
           >
             View on Maps
@@ -79,12 +80,13 @@ export default function EventVenueSection() {
           <p className="text-[18px] font-thin leading-6 mb-5">
             T A Pai Management Institute<br />
             Manipal Academy of Higher Education,<br />
-            Thanisandra Main Rd, Chokkanahalli,<br />
-            Bengaluru, Karnataka 560064
+            Govindapura, Yelahanka,<br />
+            Bengaluru 560063, Karnataka, India
           </p>
 
           <a
-            href="https://maps.app.goo.gl/PnQrV5bboqxAX2RJ8"
+            href="https://maps.app.goo.gl/yxDXjJt8XEQs4Fon6"
+            target="_blank"
             className="
               inline-block text-[18px] font-thin 
               text-white/90 border-b-[2px] border-white/80 
