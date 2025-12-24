@@ -8,6 +8,8 @@ import ObjectivesHighlightsSection from '../../components/sections/ObjectivesHig
 import AboutEventSection from '../../components/sections/AboutEventSection'
 import HeroSection from '../../components/sections/HeroSection'
 import KeynoteSection from '../../components/sections/KeynoteSection'
+import AwardsSection from '../../components/sections/AwardsSection'
+
 
 export const dynamic = "force-dynamic"; // optional, but safe
 
@@ -21,6 +23,9 @@ export default function page() {
             <ObjectivesHighlightsSection />
             <KeynoteSection />
             <TrajectoriesSection />
+          
+            <AwardsSection />
+
             <RegistrationDetailsSection />
             <ImportantDatesSection />
             <ProgramOverviewSection />
