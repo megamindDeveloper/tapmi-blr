@@ -25,7 +25,7 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-[18px] lg:text-[24px] text-[#000000CC] mb-4 sm:mb-5 lg:mb-6">
-              PhD Colloquium on Management,<br />
+              PhD and Early Career Research Colloquium on Management,<br />
               Social Sciences, and Humanities
             </p>
 
