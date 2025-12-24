@@ -126,7 +126,7 @@ export default function TrajectoriesSection() {
   return (
 
     <>
-      <section id="trajectories" className="w-full bg-[#1BA3B9] relative overflow-hidden font-sans trajectories ">
+      <section id="trajectories" className="w-full bg-[#1f7481] relative overflow-hidden font-sans trajectories ">
         {/*      
        <Image
     src="/svgs/vector1.svg"      // your actual file path

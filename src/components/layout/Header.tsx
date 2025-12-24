@@ -19,7 +19,7 @@ export default function PageNavHeader() {
 
  
   return (
-    <header className="hidden md:block w-full bg-[#1B9AAA]  z-999999999 sticky top-0 shadow-md">
+    <header className="hidden md:block w-full bg-[#1BA3B9]  z-999999999 sticky top-0 shadow-md">
 
       {/* Top Blue Line */}
       {/* <div className="w-full h-[3px] bg-[#0066A6]"></div> */}
