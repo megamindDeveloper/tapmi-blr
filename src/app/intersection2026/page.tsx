@@ -9,6 +9,7 @@ import AboutEventSection from '../../components/sections/AboutEventSection'
 import HeroSection from '../../components/sections/HeroSection'
 import KeynoteSection from '../../components/sections/KeynoteSection'
 import AwardsSection from '../../components/sections/AwardsSection'
+import PublicationAvenuesSection from '@/src/components/sections/PublicationAvenueSection'
 
 
 export const dynamic = "force-dynamic"; // optional, but safe
@@ -25,6 +26,7 @@ export default function page() {
             <TrajectoriesSection />
           
             <AwardsSection />
+            <PublicationAvenuesSection/>
 
             <RegistrationDetailsSection />
             <ImportantDatesSection />

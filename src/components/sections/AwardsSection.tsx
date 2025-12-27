@@ -5,7 +5,7 @@ import React from "react";
 
 export default function AwardsSection() {
   return (
-    <section className="w-full bg-[#1BA3B9] text-white py-12 lg:py-24 ">
+    <section className="w-full bg-[#1BA3B9] text-white py-12 lg:py-20 ">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-1 flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
         
         {/* IMAGE SECTION - Top on Mobile, Right on Desktop */}
@@ -17,13 +17,14 @@ export default function AwardsSection() {
               fill
               className="object-contain"
               priority
+              
             />
           </div>
         </div>
 
         {/* TEXT CONTENT - Bottom on Mobile, Left on Desktop */}
         <div className="w-full lg:order-1 lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left">
-          <h2 className="text-[32px] md:text-[42px] font-medium mb-6 leading-tight">
+          <h2 className="text-[29px] md:text-[42px] font-medium mb-6 leading-tight">
             Best Paper Awards
           </h2>
 
