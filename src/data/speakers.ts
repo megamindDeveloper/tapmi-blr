@@ -146,6 +146,16 @@ const speakers: SpeakersData = {
       Publishing: "Panel Theme: Navigating the Publishing Landscape—Insights from Leading Editors ",
       description: "Dr. Rudra Sensarma is a Professor of Economics at the Indian Institute of Management Kozhikode (IIMK). Before joining IIMK, he worked with the Reserve Bank of India, IIM Lucknow, the University of Birmingham, Brunel University, and the University of Hertfordshire, gaining extensive experience across policy, academic, and international settings. His research interests span macroeconomics, financial services, banking, and development policy, with a strong focus on issues relevant to emerging economies. He has published more than 50 articles in international peer-reviewed journals such as Journal of International Money and Finance, European Journal of Political Economy and Scientific Reports (Nature). Prof. Sensarma has also served as the Managing Editor of Society and Management Review, IIMK’s flagship journal, which is indexed in Scopus and appears in the ABDC and ABS journal lists. ",
       readMoreLink: ""
+    },
+      {
+      id: 11,
+      name: "Prof. Parthajit Kayal",
+      title: "Associate Professor - Madras School of Economics.",
+      subtitle: "Associate Editor: Journal of Emerging Market Finance.",
+      image: "/images/speakers/kayal.png",
+      Publishing: "",
+      description: "Prof. Parthajit Kayal is an Associate Professor of Finance at the Madras School of Economics and serves as Associate Editor of the Journal of Emerging Market Finance. His research spans asset pricing, financial economics, and investment strategies, with published work on factor investing, mutual fund behaviour, and firm-level financial characteristics. He is a regular reviewer for leading international journals and has guided numerous masters’ and doctoral students. His teaching portfolio includes Asset Pricing, Financial Mathematics, Fixed Income Securities, and advanced courses in quantitative finance. ",
+      readMoreLink: ""
     }
   ]
 };
