@@ -150,8 +150,8 @@ const speakers: SpeakersData = {
       {
       id: 11,
       name: "Prof. Parthajit Kayal",
-      title: "Associate Professor - Madras School of Economics.",
-      subtitle: "Associate Editor: Journal of Emerging Market Finance.",
+      title: "Associate Editor - Journal of Emerging Market Finance.",
+      subtitle: "Madras School of Economics.",
       image: "/images/speakers/kayal.png",
       Publishing: "",
       description: "Prof. Parthajit Kayal is an Associate Professor of Finance at the Madras School of Economics and serves as Associate Editor of the Journal of Emerging Market Finance. His research spans asset pricing, financial economics, and investment strategies, with published work on factor investing, mutual fund behaviour, and firm-level financial characteristics. He is a regular reviewer for leading international journals and has guided numerous masters’ and doctoral students. His teaching portfolio includes Asset Pricing, Financial Mathematics, Fixed Income Securities, and advanced courses in quantitative finance. ",
