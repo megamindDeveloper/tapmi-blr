@@ -87,16 +87,16 @@ const speakers: SpeakersData = {
       description: "Dr. Rakesh Kumar Pati is a Senior Lecturer in Management at Deakin University with expertise in strategy, innovation, and entrepreneurship. A Fulbright Doctoral Fellow at the University of Minnesota and a Visiting Professor at Oxford University, his research has been published in leading journals including Personnel Psychology, Harvard Business Review, and Long-Range Planning. With over a decade of international academic experience, he has helped secure more than $1.2 million in competitive research funding. An award-winning educator, Dr. Pati has designed and delivered executive programs for prominent organizations such as the National Stock Exchange of India, ANZ, and AustralianSuper.",
       readMoreLink: "https://lnkd.in/gDSbhXBK"
     },
-    {
-      id: 6,
-      name: "Prof. Carol Upadhya",
-      title: "Honorary Visiting Professor at the National Institute of Advanced Studies, Bengaluru, India",
-      subtitle: "Co-editor of the Journal of South Asian Development",
-      image: "/images/speakers/carolImg1.jpg",
-      Publishing: "Publishing Workshop: Fieldwork and Ethics",
-      description: "Dr. Carol Upadhya, a social anthropologist, is Honorary Visiting Professor at the National Institute of Advanced Studies, Bengaluru, where she leads the Urban and Mobility Studies Programme. Her recent publication is a collaborative volume on Bengaluru’s transformations titled *Chronicles of a Global City: Speculative Lives and Unsettled Futures in Bengaluru* (University of Minnesota Press, 2024; Yoda Press, 2025). She is also the author of *Reengineering India: Work, Capital, and Class in an Offshore Economy* (Oxford University Press, 2016), and her forthcoming monograph on the Amaravati project in Andhra Pradesh will be published by Berghahn Books in May 2026. Upadhya is co-editor of the *Journal of South Asian Development*.",
-      readMoreLink: "https://lnkd.in/gP9aDJ_D"
-    }
+    // {
+    //   id: 6,
+    //   name: "Prof. Carol Upadhya",
+    //   title: "Honorary Visiting Professor at the National Institute of Advanced Studies, Bengaluru, India",
+    //   subtitle: "Co-editor of the Journal of South Asian Development",
+    //   image: "/images/speakers/carolImg1.jpg",
+    //   Publishing: "Publishing Workshop: Fieldwork and Ethics",
+    //   description: "Dr. Carol Upadhya, a social anthropologist, is Honorary Visiting Professor at the National Institute of Advanced Studies, Bengaluru, where she leads the Urban and Mobility Studies Programme. Her recent publication is a collaborative volume on Bengaluru’s transformations titled *Chronicles of a Global City: Speculative Lives and Unsettled Futures in Bengaluru* (University of Minnesota Press, 2024; Yoda Press, 2025). She is also the author of *Reengineering India: Work, Capital, and Class in an Offshore Economy* (Oxford University Press, 2016), and her forthcoming monograph on the Amaravati project in Andhra Pradesh will be published by Berghahn Books in May 2026. Upadhya is co-editor of the *Journal of South Asian Development*.",
+    //   readMoreLink: "https://lnkd.in/gP9aDJ_D"
+    // }
   ],
   Editorial: [
     {
