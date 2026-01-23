@@ -87,6 +87,18 @@ const speakers: SpeakersData = {
       description: "Dr. Rakesh Kumar Pati is a Senior Lecturer in Management at Deakin University with expertise in strategy, innovation, and entrepreneurship. A Fulbright Doctoral Fellow at the University of Minnesota and a Visiting Professor at Oxford University, his research has been published in leading journals including Personnel Psychology, Harvard Business Review, and Long-Range Planning. With over a decade of international academic experience, he has helped secure more than $1.2 million in competitive research funding. An award-winning educator, Dr. Pati has designed and delivered executive programs for prominent organizations such as the National Stock Exchange of India, ANZ, and AustralianSuper.",
       readMoreLink: "https://lnkd.in/gDSbhXBK"
     },
+    {
+      id: 6,
+      name: "Prof. Dibyakusum Ray",
+      title: "Indian Institute of Technology, Ropar",
+      subtitle: "Associate Professor",
+      image: "/images/speakers/ray-fin.png",
+
+      Publishing: "Publishing Workshop: Fieldwork and Ethics",
+
+      description: "Dibyakusum Ray is a lecturer in English, Philosophy, and Cultural Studies at the Indian Institute of Technology, Ropar, India. He is the author of Postcolonial Indian City-Literature: Policy, Politics and Evolution (2022) and Introduction to Horror Studies (2025-contracted). He is the guest editor of special issues to be published in journals like Journal of Postcolonial Writing and Cultural Studies, and his articles have been published in several journals on topics centering Urbanism, Fiction and Films. He was also the head of the SPARC-funded project on the archiving of lost media elements during the Indian National Emergency, 1975-77, in collaboration with Royal Holloway College, UK, as well as digitally archiving the folk songs of modern-day Bihar.",
+      readMoreLink: "https://share.google/KcVciiTEgcgznxCZP"
+    },
     // {
     //   id: 6,
     //   name: "Prof. Carol Upadhya",
