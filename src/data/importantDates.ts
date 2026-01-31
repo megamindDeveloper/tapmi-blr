@@ -5,7 +5,7 @@ export const importantDates = [
       "Early bird abstract submission and early bird registration deadline",
   },
   {
-    date: "30 Jan 2026",
+    date: "15 Feb 2026",
     description:
       "Regular abstract submission and regular registration deadline",
   },

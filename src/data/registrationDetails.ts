@@ -31,8 +31,8 @@ export const registrationTable = {
       items: [
         {
           label: "Abstract Submission",
-          phd: "30 Jan 2026",
-          aca: "30 Jan 2026",
+          phd: "15 Feb 2026",
+          aca: "15 Feb 2026",
         },
         {
           label: "Registration Fees",

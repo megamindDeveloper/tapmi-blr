@@ -15,12 +15,22 @@ export default function PublicationAvenuesSection() {
         <p className="text-[black] text-lg md:text-2xl font-normal mb-6">
           Partnering Journal
         </p>
-
+  <p className="text-[black] text-lg md:text-2xl font-medium mb-8">
+          The Journal of Marketing Intelligence and Planning (ABDC-A)
+        </p>
         {/* Journal Name */}
         <p className="text-[black] text-lg md:text-2xl font-medium mb-8">
           The Journal of Emerging Market Finance (Sage, ABDC- B, IF 1.2)
         </p>
-
+ <p className="text-[black] text-lg md:text-2xl font-medium mb-8">
+         Special Issue in IIMB Management Review (ABDC-B)
+        </p>
+         <p className="text-[black] text-lg md:text-2xl font-medium mb-8">
+         Journal of Human Value, Sage (Scopus Q1)
+        </p>
+         <p className="text-[black] text-lg md:text-2xl font-medium mb-8">
+         In Special Issue of Journal of Postcolonial Writing, Taylor & Francis (Scopus Q1)/Cultural Studies (Taylor & Francis) (Scopus Q1)
+        </p>
         {/* Note */}
         <p className="text-[black] text-base md:text-start text-justify md:text-lg leading-relaxed mt-12">
           <span className="font-medium">Note:</span> Authors of selected
