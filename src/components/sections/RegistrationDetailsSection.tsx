@@ -167,7 +167,7 @@ export default function RegistrationDetailsSection() {
                   </div>
 
                   <p className="text-[18px] font-normal whitespace-nowrap pt-[2px]">
-                    30 Jan 2026
+                    15 Feb 2026
                   </p>
                 </div>
                 <p className="text-[18px] leading-[28px] -mt-6 md:hidden block opacity-90">
