@@ -37,15 +37,15 @@ export default function AwardsSection() {
           <div className="w-full space-y-7 mb-10">
             {/* Award Pills */}
             <div className="w-full lg:w-[85%] border-2 border-white/60 rounded-xl px-6 py-4 text-lg md:text-2xl font-normal bg-transparent">
-              Best Paper Award – ₹5,000
+              Best Paper Award – ₹15,000
             </div>
 
             <div className="w-full lg:w-[85%] border-2 border-white/60 rounded-xl px-6 py-4 text-lg md:text-2xl font-normal bg-transparent">
-              Second Best Paper Award – ₹3,000
+              Second Best Paper Award – ₹10,000
             </div>
 
             <div className="w-full lg:w-[85%] border-2 border-white/60 rounded-xl px-6 py-4 text-lg md:text-2xl font-normal bg-transparent">
-              Third Best Paper Award – ₹2,000
+              Third Best Paper Award – ₹8,000
             </div>
           </div>
 
