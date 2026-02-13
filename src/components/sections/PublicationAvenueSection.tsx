@@ -16,7 +16,7 @@ export default function PublicationAvenuesSection() {
           Partnering Journal
         </p>
   <p className="text-[black] text-lg md:text-2xl font-medium mb-8">
-          The Journal of Marketing Intelligence and Planning (ABDC-A)
+          Marketing Intelligence and Planning (ABDC-A)
         </p>
         {/* Journal Name */}
         <p className="text-[black] text-lg md:text-2xl font-medium mb-8">
