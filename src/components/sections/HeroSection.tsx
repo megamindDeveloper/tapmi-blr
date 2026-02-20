@@ -5,7 +5,7 @@ import HeroHeader from "./HeroHeader";
 
 export default function HeroSection() {
   return (
-    <section className="w-full h-[92vh]  flex flex-col overflow-hidden">
+    <section className="w-full min-h-[90vh]  flex flex-col overflow-hidden">
       <HeroHeader />
 
       <div className="flex-1 w-full bg-gradient-to-r from-white via-[#bbedf7] to-[#B8EDF7] relative flex flex-col">
@@ -24,7 +24,7 @@ export default function HeroSection() {
               New Global Order
             </h1>
 
-            <p className="text-[18px] lg:text-[24px] text-[#000000CC] mb-4 sm:mb-5 lg:mb-6">
+            <p className="text-[18px] lg:text-[24px] text-[#000000CC] mb-4 sm:mb-5 lg:mb-3">
               PhD and Early Career Research Colloquium on Management,<br />
               Social Sciences, and Humanities
             </p>
@@ -35,7 +35,7 @@ export default function HeroSection() {
       "_blank",
       "noopener,noreferrer"
     );
-  }} className="bg-[#1E9BB0] hover:bg-[#1a8a9d] transition text-white px-3 sm:px-4 py-3 sm:py-3 text-[17px] font-bold mt-2 sm:mb-6 lg:mb-8 ">
+  }} className="bg-[#1E9BB0] hover:bg-[#1a8a9d] transition text-white px-3 sm:px-4 py-3 sm:py-3 text-[17px] font-bold mt-2 sm:mb-6 lg:mb-5 ">
               Submit Your Abstract
             </button>
 
@@ -58,7 +58,7 @@ export default function HeroSection() {
         </div>
 
         {/* BOTTOM VENUE STRIP - Desktop/Tablet */}
-        <div className="hidden sm:block w-full bg-[#1BA3B9] text-white py-3 sm:py-4 lg:py-6 relative z-5">
+        <div className="hidden sm:block w-full bg-[#1BA3B9] text-white py-3  lg:py-6 relative z-5">
           <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-15 lg2:px-12 text-[14px] sm:text-[20px] lg:text-[24px] flex flex-col gap-1 sm:gap-2">
             <p>
               <span className="font-semibold">Venue:</span> TAPMI, MAHE Bengaluru Campus
