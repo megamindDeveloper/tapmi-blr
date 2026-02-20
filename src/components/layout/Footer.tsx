@@ -84,6 +84,7 @@ export default function Footer() {
               href="https://www.instagram.com/tapmibengaluru/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="TAPMI Bengaluru Instagram Page"
             >
               <svg
                 className="text-[#2B2A29] hover:text-[#1BA3B9] transition-colors cursor-pointer"
@@ -105,6 +106,7 @@ export default function Footer() {
               href="https://www.facebook.com/profile.php?id=61556082347769"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="TAPMI Bengaluru Facebook Page"
             >
               <svg
                 className="text-[#2B2A29] hover:text-[#1BA3B9] transition-colors cursor-pointer"
@@ -126,6 +128,7 @@ export default function Footer() {
               href="https://www.linkedin.com/company/tapmibengaluru/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="TAPMI Bengaluru LinkedIn Page"
             >
               <svg
                 className="text-[#2B2A29] hover:text-[#1BA3B9] transition-colors cursor-pointer"
@@ -154,6 +157,7 @@ export default function Footer() {
               href="https://www.youtube.com/@TAPMIBengaluru"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="TAPMI Bengaluru YouTube Channel"
             >
               <svg
                 className="text-[#2B2A29] hover:text-[#1BA3B9] transition-colors cursor-pointer"

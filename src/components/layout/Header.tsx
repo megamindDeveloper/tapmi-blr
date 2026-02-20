@@ -36,7 +36,7 @@ export default function PageNavHeader() {
             text-[14px]
           "
         >
-          <a  onClick={() => scrollToSection("trajectories")}   className="hover:opacity-80 transition">Trajectories</a>
+          <a  onClick={() => scrollToSection("trajectories")}  href="#trajectories"  className="hover:opacity-80 transition">Trajectories</a>
           <a onClick={() => scrollToSection("important-dates")}  href="#important-dates" className="hover:opacity-80 transition">Important Dates</a>
           <a onClick={() => scrollToSection("registration")} href="#registration" className="hover:opacity-80 transition">Registration & Participation</a>
           <a onClick={() => scrollToSection("schedule")} href="#schedule" className="hover:opacity-80 transition">Schedule</a>
